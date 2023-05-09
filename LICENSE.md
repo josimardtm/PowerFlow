@@ -1,0 +1,31 @@
+## Licencia y cláusulas del autor
+
+Al consultar, descargar, descomprimir, instalar, usar o explorar las herramientas, scripts y guías de desarrollo contenidas en este repositorio, sus archivos y documentación, usted como empresa, individuo, investigador, estudiante, profesional, empleado o persona, acepta los siguientes términos de uso:
+
+* _ing.josimardtm@gmail.com_ le concede una licencia de uso global, no exclusiva, de libre uso y revocable en cualquier momento, siempre y cuando sea única y exclusivamente para su uso personal o privado y no tenga como fin un uso comercial.
+
+* Cláusula de exención de responsabilidad: _ing.josimardtm@gmail.com_, No se responsabiliza de la aplicación y uso de los resultados obtenidos a través de sus modelos y herramientas. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, objetos aplicados y los resultados obtenidos, cumplen con las metodologías y estándares de análisis aplicables en ingeniería o disciplinas derivadas o afines.
+
+* Se permite la reproducción digital de los documentos electrónicos con autorización expresa del autor (solicitar a ing.josimardtm@gmail.com indicando el proyecto o caso de estudio), No se permite su reproducción impresa en medios físicos.
+
+* Se acoge a todas las leyes de propiedad intelectual o de derechos de autor, bien sean locales, de su país de procedencia o globales internacionales. 
+
+* No se permite la eliminación, alteración, modificación o cambio de logos embebidos dentro de este repositorio, proyecto o software, ni de su iconografía. Capturas de pantalla deben mostrar el logo embebido, siempre y cuando se trate de páginas, repositorios, formularios, reportes o gráficas.
+
+* Los contenidos, materiales, datos producidos a partir de datos base, son de uso libre y estrictamente para uso académico; no publique o distribuya estos datos ni los archivos producidos, sin la autorización expresa del autor. Los datos utilizados para el desarrollo, implementación y realización de pruebas funcionales fueron obtenidos de diferentes fuentes de información. Se aclara que los datos o información registrada en este repositorio, en su mayoría tiene el carácter de pública y puede ser objeto de modificación y/o actualización permanente; así mismo, la utilización, reproducción, modificación o distribución de los manuales, guías y datos, impone la obligación de reconocer la autoría de estos mismos y citar la fuente de referencia. Tenga en cuenta que esta información puede contener imprecisiones y solo es usada para esquematizar los ejemplos presentados en este repositorio, software y guías de desarrollo. Para el desarrollo de trabajos profesionales y académicos, se recomienda consultar las distintas fuentes de datos citadas y verificar el estado de actualización, los derechos de uso y restricción de estos mismos. Los datos base incluidos en este repositorio y provenientes de diferentes fuentes públicas, se acogen a La Ley de Transparencia y Acceso a la Información Pública Nacional de Colombia (Ley 1712 de 2014), que establece procedimientos para garantizar el derecho de acceso a la información pública, y el Decreto de Gobierno en Línea de Colombia (Incluido en el Decreto único Reglamentario del sector TIC - 1078 de 2015).
+
+* El autor no se hace responsable por el uso inadecuado de las herramientas computacionales que hacen parte de este repositorio, software o del proyecto _R.TeachingResearchGuide_, ni del uso inadecuado de los algoritmos, memorias de cálculo, guías de desarrollo y herramientas disponibles.
+
+* Se permite la modificación y mejora de los manuales, memorias de cálculo, guías de desarrollo, libros de cálculo electrónicos, scripts, algoritmos y demás herramientas propias incluidas en este repositorio, software o del proyecto _R.TeachingResearchGuide_, siempre y cuando se preserven las mismas libertades de distribución y copia de las modificaciones realizadas. Al efectuar modificaciones, se compromete y obliga a publicarlas y a notificar al autor original a través del correo electrónico _r.cfdtools@gmail.com_ o a través de los mecanismos disponibles en GitHub (_Issues_, _Pull requests_, _Discussions_), quién podrá incorporarlas a la versión oficial para su posterior distribución.
+
+* No se permite la privatización, acaparamiento, venta o distribución comercial de este repositorio, software o del proyecto _R.TeachingResearchGuide_, ni ninguno de sus componentes, herramientas, memorias de cálculo, scripts, algoritmos y demás herramientas complementarias que se encuentran aquí publicadas o dentro de paquetes de instalación o liberaciones.
+
+
+### Citación
+
+Se permite la reproducción digital parcial o total de estas actividades, scripts, guías de desarrollo, modelos de datos y documentación, siempre que se haga referencia como: "R.TeachingResearchGuide - Guía para enseñanza e investigación colaborativa con GitHub.", https://github.com/rcfdtools/R.TeachingResearchGuide, Bogotá - Colombia - Suramérica.".
+
+Tienes alguna duda acerca de nuestra licencia, escríbenos a través de _Ayuda / Colabora_ de este documento.
+
+| [:house: Inicio](Readme.md) | [:beginner: Ayuda / Colabora](https://github.com/rcfdtools/R.TeachingResearchGuide/discussions/10) |
+|-----------------------------|----------------------------------------------------------------------------------------------------|
