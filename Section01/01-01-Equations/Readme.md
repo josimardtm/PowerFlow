@@ -14,4 +14,4 @@ Keywords: `Equations` `Power flow` `Formulation`
 * [Matriz de admitancias](https://es.wikipedia.org/wiki/Admitancia)
 
 ### Imagen
-![Línea de transmisión](C:\PowerFlow\Section01\01-01-Equations\Screenshot\electricity-3158345_1280.jpg "Torre de línea de transmisión")
+![Línea de transmisión](Screenshot\electricity-3158345_1280.jpg "Torre de línea de transmisión")
