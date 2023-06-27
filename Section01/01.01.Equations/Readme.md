@@ -5,7 +5,6 @@ Keywords: `Equations` `Power flow` `Formulation`
 
 [comment]:<> (Enlace a video, imagen de cabecera, alcance, objetivos, requerimientos, diagrama general de procesos, conceptos)
 [comment]:<> (Procedimiento, Actividades complementarias, Preguntas y respuestas, referencias, control de versiones)
-[comment]:<> (Procedimiento, Actividades complementarias, Preguntas y respuestas, referencias, control de versiones)
 
 ### Requerimientos
 
@@ -13,5 +12,26 @@ Keywords: `Equations` `Power flow` `Formulation`
 * [Admitancia](https://es.wikipedia.org/wiki/Admitancia)
 * [Matriz de admitancias](https://es.wikipedia.org/wiki/Admitancia)
 
-### Imagen
+### Estructura del sistema de potencia
 ![Línea de transmisión](Screenshot\electricity-3158345_1280.jpg "Torre de línea de transmisión")
+
+### Potencia Inyectada
+
+### Voltajes 
+
+### Corrientes
+
+### Control de versiones
+
+| Versión    | Descripción        | Autor                                       | Horas |
+|------------|:-------------------|---------------------------------------------|:-----:|
+| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   1   |
+
+_PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
+
+_¿Encontraste útil este repositorio? Apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [Josimardtm](https://github.com/josimardtm) en GitHub._
+
+| [Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](../01.02.Classification/Readme.md) |
+|--------------------------|-----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
+
+[comment]:<> (Referencias [^1]: Tomado y/o adaptado de https://www.scielo.org.mx/scielo.php?pid=S2007-78902020000800028&script=sci_arttext#:~:text=El%20desarrollo%20colaborativo%20se%20refiere,inform%C3%A1tico%20funcional%20y%20de%20calidad.)

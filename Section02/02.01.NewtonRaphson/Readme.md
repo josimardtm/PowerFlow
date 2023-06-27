@@ -1,6 +1,6 @@
-## Actividad 1 - Ecuaciones fundamentales del flujo de potencia
+## Actividad 2.1 - Solución del problema de flujo de potencia con el método de Newton-Raphson
 
-Keywords: `Equations` `Power flow` `Formulation`
+Keywords: `Equations` `Power flow` `Newton-Raphson`
 
 
 [comment]:<> (Enlace a video, imagen de cabecera, alcance, objetivos, requerimientos, diagrama general de procesos, conceptos)
