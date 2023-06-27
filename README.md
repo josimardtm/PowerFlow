@@ -1,5 +1,5 @@
 <div align="center">
-  <br><img alt="R.LTWB" src="../.icons/banner1.svg" width="100%">
+  <br><img alt="PowerFlow" src=".icons/banner1.svg" width="100%">
 </div>
 
 # Power Flow
