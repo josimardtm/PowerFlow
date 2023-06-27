@@ -1,4 +1,8 @@
-# Power Flow  
+<div align="center">
+  <br><img alt="R.LTWB" src="../.icons/banner1.svg" width="100%">
+</div>
+
+# Power Flow
 Curso de flujo de potencia para desarrollo colaborativo con Github.
 
 Este curso es una introducción al problema de flujos de potencia y los métodos más empleados para su solución.
