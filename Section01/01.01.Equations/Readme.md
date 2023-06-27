@@ -2,18 +2,21 @@
 
 Keywords: `Equations` `Power flow` `Formulation`
 
-
-[comment]:<> (Enlace a video, imagen de cabecera, alcance, objetivos, requerimientos, diagrama general de procesos, conceptos)
-[comment]:<> (Procedimiento, Actividades complementarias, Preguntas y respuestas, referencias, control de versiones)
-
 ### Requerimientos
 
 * Lectura de referencias a pie de página
 * [Admitancia](https://es.wikipedia.org/wiki/Admitancia)
 * [Matriz de admitancias](https://es.wikipedia.org/wiki/Admitancia)
 
-### Estructura del sistema de potencia
-![Línea de transmisión](Screenshot\electricity-3158345_1280.jpg "Torre de línea de transmisión")
+### Modelo balanceado en estado estacionario de un sistema de potencia
+
+Los sistemas de potencia contienen una gran cantidad de elementos que permiten conectar a los consumidores de energía eléctrica con las fuentes de generación.
+
+En estado estacionario, estos sistemas se pueden representar por modelos sencillos que permiten conformar circuitos para realizar un análisis de sus condiciones dde operación.
+
+Las líneas de transmisión, los transformadores de potencia y las cargas se representan mediante sus admitancias (o impedancias) y a partir de sus conexiones se puede obtener la matriz de admitancias del sistema.
+
+[Figura]
 
 ### Potencia Inyectada
 
@@ -35,3 +38,6 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 |--------------------------|-----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
 
 [comment]:<> (Referencias [^1]: Tomado y/o adaptado de https://www.scielo.org.mx/scielo.php?pid=S2007-78902020000800028&script=sci_arttext#:~:text=El%20desarrollo%20colaborativo%20se%20refiere,inform%C3%A1tico%20funcional%20y%20de%20calidad.)
+[comment]:<> ([Línea de transmisión](Screenshot\electricity-3158345_1280.jpg "Torre de línea de transmisión"))
+[comment]:<> (Enlace a video, imagen de cabecera, alcance, objetivos, requerimientos, diagrama general de procesos, conceptos)
+[comment]:<> (Procedimiento, Actividades complementarias, Preguntas y respuestas, referencias, control de versiones)
