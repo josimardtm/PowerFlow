@@ -16,14 +16,14 @@ El problema de flujo de potencia permite evaluar las condiciones de operación d
 | [Ecuaciones fundamentales del flujo de potencia](Section01/01.01.Equations/Readme.md)      | La formulación de las ecuaciones fundamentales es la base del problema de flujo de carga                        |
 | [Clasificación de los buses para flujo de carga](Section01/01.02.Classification/Readme.md) | Para poder solucionar el problema de flujo de carga, es necesario clasificar los buses del sistema de potencia. |
 
-## [Sección 2 - Métodos de solución del problema de flujos de potencia](Section02/Readme.md)
+## [Sección 2 - Métodos de solución aplicados al problema de flujos de potencia](Section02/Readme.md)
 
 El conocimiento de los métodos numéricos para la solución del problema de flujos de potencia es útil para entender cómo funcionan los simuladores comerciales de sistemas de potencia.
 
-| Contenido                                                            | Alcance                                                                                                                    |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| [Método de Newton-Raphson](Section02/02.01.NewtonRaphson/Readme.md)  | El método de Newton-Raphson es uno de los más empleados en la solución de flujos de potencia dada su precissión y rapidez. |
-| [Método Desacoplado Rápido](Section02/02.02.FastDecoupled/Readme.md) | Este método simplificado permite obtener una solución aproximada de los flujos de potencia.                                |
+| Contenido                                                            | Alcance                                                                                          |
+|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [Método de Newton-Raphson](Section02/02.01.NewtonRaphson/Readme.md)  | Se explica la aplicación del método numérico para la solución de problemas de flujo de potencia. |
+| [Método Desacoplado Rápido](Section02/02.02.FastDecoupled/Readme.md) | Este método simplificado permite obtener una solución aproximada de los flujos de potencia.      |
 
 ##  
 
