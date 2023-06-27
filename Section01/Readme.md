@@ -8,6 +8,7 @@ La formulación del problema de flujo de potencia o flujo de carga se fundamenta
 
 Desde los inicios de los sistemas de transmisión interconectados, se hizo necesario predecir el comportamiento de ellos bajo distintas condiciones en estado estable.
 
+##
 
 | Contenido                                                                                   | Alcance                                                                                                         |
 |---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -20,5 +21,5 @@ _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, clá
 
 _¿Encontraste útil este repositorio? Apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [Josimardtm](https://github.com/josimardtm) en GitHub._
 
-| [:house: Inicio](../README.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](01.02.Classification/Readme.md) |
-|--------------------------------|------------------------------------------------------------------------------------|---------------------------------------------|
+| [:house: Inicio](../README.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](01.01.Equations/Readme.md) |
+|--------------------------------|------------------------------------------------------------------------------------|----------------------------------------|
