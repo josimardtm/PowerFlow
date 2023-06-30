@@ -20,11 +20,11 @@ El punto de partida para la formulación del problema de flujo de potencia es un
     <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph\unifilar.svg" title="Diagrama unifilar" width="60%"/>
 </div>
 
-Cada uno de los buses $k$ se asocia con cuatro variables principales: 
-* Magnitud de la tensión V_k
-* Ángulo de fase de la tensión \delta_k
-* Potencia activa inyectada P_k
-* Potencia reactiva inyectada Q_k
+Cada uno de los buses $´k´$ se asocia con cuatro variables principales: 
+* Magnitud de la tensión $´V_k´$
+* Ángulo de fase de la tensión $\delta_k$
+* Potencia activa inyectada $P_k$
+* Potencia reactiva inyectada $Q_k$
 
 ### Potencia Inyectada
 
