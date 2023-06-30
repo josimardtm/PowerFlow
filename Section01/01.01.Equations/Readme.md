@@ -17,7 +17,7 @@ En estado estacionario, estos sistemas se pueden representar por modelos simplif
 El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de los buses, de las líneas de transmisión y de los transformadores.
 
 <div align="center">
-    <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="\Graph\unifilar.svg" title="Diagrama unifilar" width="60%"/>
+    <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph\unifilar.svg" title="Diagrama unifilar" width="60%"/>
 </div>
 
 Cada uno de los buses $k$ se asocia con cuatro variables principales: 
