@@ -17,11 +17,11 @@ En estado estacionario, estos sistemas se pueden representar por modelos simplif
 El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de los buses, de las líneas de transmisión y de los transformadores.
 
 <div align="center">
-    <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph\unifilar.svg" title="Diagrama unifilar" width="60%"/>
+    <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="\Graph\unifilar.svg" title="Diagrama unifilar" width="60%"/>
 </div>
 
-Cada uno de los buses $´k´$ se asocia con cuatro variables principales: 
-* Magnitud de la tensión $´V_k´$
+Cada uno de los buses $k$ se asocia con cuatro variables principales: 
+* Magnitud de la tensión $V_k$
 * Ángulo de fase de la tensión $\delta_k$
 * Potencia activa inyectada $P_k$
 * Potencia reactiva inyectada $Q_k$
@@ -36,7 +36,7 @@ Cada uno de los buses $´k´$ se asocia con cuatro variables principales:
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   2   |
+| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   3   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
