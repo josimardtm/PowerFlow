@@ -46,7 +46,7 @@ $$[Y_{bus}]=
 \end{bmatrix}
 $$
 
-Si el fasor de voltaje del bus $k$ es. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
+Si el fasor de voltaje del bus $k$ es $**V_k**$. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
 
 $$I_1=V_1Y_g+(V_1-V_2)Y_s$$
 
