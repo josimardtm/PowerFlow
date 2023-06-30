@@ -28,18 +28,38 @@ Cada uno de los buses $k$ se asocia con cuatro variables principales:
 
 Las líneas de transmisión se representan por un equivalente $\pi$ balanceado. Se debe tener como dato la impedancia en serie y en derivación (líneas medias y largas).
 
-Todos los valores se representan en el sistema por unidad [^1].
+Todos los valores se representan en el sistema por unidad [^1]. 
 
 Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obtiene de los datos de las líneas de transmisión y transformadores. Esta matriz cuadrada tiene tantas filas o columnas como nodos hay en el sistema.
 * Cantidad de nodos $n$
-* Matriz de admitancias de buses $[Y_bus]$
-* Elementos d
+* Matriz de admitancias de buses $[Y_{bus}]$
+* Los elementos de la matriz de admitancias son: $Y_{kk}=$ suma de las admitancias conectadas al nodo $k$ y $Y_{km}=$ -(suma de los elementos conectados entre los buses $k$ y $m$ con $k \ne m$)
 
-### Potencia Inyectada
+### Corrientes Inyectadas a cada bus
+
+Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias:
+
+
+$[Ybus]=\begin{bmatrix} Y_{11} & Y_{12}\\ Y_{21} & Y{22} \end{bmatrix}$
+
+Si el fasor de voltaje del bus $k$ es $\textbf{V_k}=V_k \angle \delta_k$. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
+
+$I_1=V_1 Y_g + (V_1-V_2) Y_s$
+$I_2=V_2 Y_g + (V_2-V_1) Y_s$
+
+
+
+### Potencia Inyectada a cada bus
+
+La potencia inyectada a cada bus por convención es la resta de la potencia generada menos la potencia demandada.
+$P_k=P_{Gk}-P{Lk}$ 
+$Q_k=Q_{Gk}-Q{Lk}$
+
+
 
 ### Voltajes 
 
-### Corrientes
+
 
 ### Control de versiones
 
