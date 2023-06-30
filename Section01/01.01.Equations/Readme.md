@@ -21,10 +21,10 @@ El punto de partida para la formulación del problema de flujo de potencia es un
 </div>
 
 Cada uno de los buses $k$ se asocia con cuatro variables principales: 
-* Magnitud de la tensión
-* Ángulo de fase de la tensión
-* Potencia activa inyectada
-* Potencia reactiva inyectada
+* Magnitud de la tensión V_k
+* Ángulo de fase de la tensión \delta_k
+* Potencia activa inyectada P_k
+* Potencia reactiva inyectada Q_k
 
 ### Potencia Inyectada
 
