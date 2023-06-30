@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="unifilar.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75544332"
+     inkscape:cx="397.11781"
+     inkscape:cy="487.13118"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-27.67807,-10.932411)"
+       id="g171">
+      <rect
+         x="176"
+         y="211"
+         width="102"
+         height="91"
+         stroke="#000000"
+         stroke-width="4"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="#ffffff"
+         id="rect9" />
+      <path
+         d="M 278.5,257.5 H 709.414"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path11" />
+      <path
+         d="m 346.5,222.5 v 68.039"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path13" />
+      <path
+         d="m 652.5,234.5 v 68.039"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path15" />
+      <path
+         d="m 709,256.5 c 0,-19.054 15.222,-34.5 34,-34.5 18.778,0 34,15.446 34,34.5 0,19.054 -15.222,34.5 -34,34.5 -18.778,0 -34,-15.446 -34,-34.5 z"
+         stroke="#000000"
+         stroke-width="4"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path17" />
+      <path
+         d="m 754,256.5 c 0,-19.054 15.222,-34.5 34,-34.5 18.778,0 34,15.446 34,34.5 0,19.054 -15.222,34.5 -34,34.5 -18.778,0 -34,-15.446 -34,-34.5 z"
+         stroke="#000000"
+         stroke-width="4"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path19" />
+      <path
+         d="m 822.5,257.5 h 68.039"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path21" />
+      <path
+         d="M 890.5,211.5 V 313.559"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path23" />
+      <path
+         d="m 960,245.5 v 46.699 h -3 V 245.5 Z m 4.5,44.699 -6,12 -6,-12 z"
+         id="path25" />
+      <path
+         d="m 958,574 c 0,-18.778 15.222,-34 34,-34 18.78,0 34,15.222 34,34 0,18.778 -15.22,34 -34,34 -18.778,0 -34,-15.222 -34,-34 z"
+         stroke="#000000"
+         stroke-width="4"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path27" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="36px"
+         transform="translate(980.781,586)"
+         id="text29">G</text>
+      <path
+         d="m 890.5,245.5 h 68.039"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path31" />
+      <path
+         d="m 890.5,574.5 h 68.039"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path33" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(167.408,342)"
+         id="text35">Red externa</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(167.408,371)"
+         id="text37">200MW</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(382.865,138)"
+         id="text39">Línea 1</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(453.615,138)"
+         id="text41">-</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(460.865,138)"
+         id="text43">2</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(382.865,167)"
+         id="text45">475kV</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(382.865,196)"
+         id="text47">60MVA</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(382.865,225)"
+         id="text49">X=22,56 Ohm</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(700.38,114)"
+         id="text51">Tx1</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(700.38,143)"
+         id="text53">475kV/110kV</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(700.38,172)"
+         id="text55">X=0,031pu</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(700.38,201)"
+         id="text57">60 MVA</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="22px"
+         transform="translate(995.216,239)"
+         id="text59">Carga</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(995.216,264)"
+         id="text61">90MW FP=0,85(</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1132.97,264)"
+         id="text63">-</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1139.47,264)"
+         id="text65">)</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(995.216,289)"
+         id="text67">110kV</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="21px"
+         transform="translate(1040.58,556)"
+         id="text69">Generación</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1040.58,581)"
+         id="text71">60MW</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1040.58,606)"
+         id="text73">110kV</text>
+      <path
+         d="M 0,0 51.0293,45.3594"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(-1,0,0,1,227.029,211)"
+         id="path75" />
+      <path
+         d="M 0,0 79.3789,68.0391"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(-1,0,0,1,255.379,211)"
+         id="path77" />
+      <path
+         d="M 0,0 102.059,90.7187"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(-1,0,0,1,278.059,211)"
+         id="path79" />
+      <path
+         d="M 0,0 22.6797,22.6797"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(-1,0,0,1,198.68,211)"
+         id="path81" />
+      <path
+         d="M 0,0 51.0293,45.3594"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,227,302.359)"
+         id="path83" />
+      <path
+         d="M 0,0 79.3789,68.0391"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,198,302.039)"
+         id="path85" />
+      <path
+         d="M 0,0 102.059,90.7187"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,176,301.719)"
+         id="path87" />
+      <path
+         d="M 0,0 22.6797,22.6797"
+         stroke="#000000"
+         stroke-width="1.5"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(1,0,0,-1,255,301.68)"
+         id="path89" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="32px"
+         transform="translate(337.375,214)"
+         id="text91">1</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="32px"
+         transform="translate(643.681,229)"
+         id="text93">2</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="32px"
+         transform="translate(881.687,203)"
+         id="text95">3</text>
+      <path
+         d="m 709,563 c 0,-18.778 15.222,-34 34,-34 18.778,0 34,15.222 34,34 0,18.778 -15.222,34 -34,34 -18.778,0 -34,-15.222 -34,-34 z"
+         stroke="#000000"
+         stroke-width="4"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path97" />
+      <path
+         d="m 754,563 c 0,-18.778 15.222,-34 34,-34 18.778,0 34,15.222 34,34 0,18.778 -15.222,34 -34,34 -18.778,0 -34,-15.222 -34,-34 z"
+         stroke="#000000"
+         stroke-width="4"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path99" />
+      <path
+         d="m 822.5,563.5 h 68.039"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path101" />
+      <path
+         d="m 652.5,529.5 v 68.039"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path103" />
+      <path
+         d="m 652.5,563.5 h 56.699"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path105" />
+      <path
+         d="M 0,0 0.0653543,119.068"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(-1,0,0,1,890.565,529.5)"
+         id="path107" />
+      <path
+         d="M 652.676,562.996 H 412.588 V 279.5 H 346.5"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path109" />
+      <path
+         d="m 890.5,291.5 h 33.128 l 0.872,249 h -32.256 l 1.743,-4.06"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path111" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="32px"
+         transform="translate(881.818,509)"
+         id="text113">4</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="32px"
+         transform="translate(643.681,509)"
+         id="text115">5</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(711.72,636)"
+         id="text117">Tx2</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(711.72,665)"
+         id="text119">475kV/115kV</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(711.72,694)"
+         id="text121">X=0,025pu</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(711.72,723)"
+         id="text123">50 MVA</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(938.517,388)"
+         id="text125">Línea 3</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(1009.27,388)"
+         id="text127">-</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(1016.52,388)"
+         id="text129">4</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(938.517,417)"
+         id="text131">110kV</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(938.517,446)"
+         id="text133">30MVA</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(938.517,475)"
+         id="text135">X=3,025 Ohm</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(428.224,603)"
+         id="text137">Línea 1</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(504.474,603)"
+         id="text139">-</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="24px"
+         transform="translate(511.724,603)"
+         id="text141">5</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(428.224,632)"
+         id="text143">475kV</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(428.224,661)"
+         id="text145">50MVA</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="24px"
+         transform="translate(428.224,690)"
+         id="text147">X=32,72 Ohm</text>
+      <path
+         d="m 957,619.5 v 46.699 h -3 V 619.5 Z m 4.5,44.699 -6,12 -6,-12 z"
+         id="path149" />
+      <path
+         d="m 887.5,619.5 h 68.039"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         fill="none"
+         fill-rule="evenodd"
+         id="path151" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="700"
+         font-size="22px"
+         transform="translate(972.537,675)"
+         id="text153">Carga</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(972.537,700)"
+         id="text155">2</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(983.287,700)"
+         id="text157">0</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(994.037,700)"
+         id="text159">MW</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1035.54,700)"
+         id="text161">FP=</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1066.54,700)"
+         id="text163">0,95(</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1110.29,700)"
+         id="text165">-</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(1116.79,700)"
+         id="text167">)</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="21px"
+         transform="translate(972.537,725)"
+         id="text169">110kV</text>
+    </g>
+  </g>
+</svg>
