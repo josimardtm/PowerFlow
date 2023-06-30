@@ -39,21 +39,21 @@ Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obt
 
 Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias:
 
+$[Y_bus]=\begin{bmatrix}Y_{11}&Y_{12}\\Y_{21}&Y_{22}\end{bmatrix}$
 
-$[Ybus]=\begin{bmatrix} Y_{11} & Y_{12}\\ Y_{21} & Y{22} \end{bmatrix}$
+Si el fasor de voltaje del bus $k$ es $\textbf{V_k}=V_k\angle\delta_k$. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
 
-Si el fasor de voltaje del bus $k$ es $\textbf{V_k}=V_k \angle \delta_k$. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
+$I_1=V_1Y_g+(V_1-V_2)Y_s$
 
-$I_1=V_1 Y_g + (V_1-V_2) Y_s$
-$I_2=V_2 Y_g + (V_2-V_1) Y_s$
-
-
+$I_2=V_2Y_g+(V_2-V_1)Y_s$
 
 ### Potencia Inyectada a cada bus
 
 La potencia inyectada a cada bus por convención es la resta de la potencia generada menos la potencia demandada.
-$P_k=P_{Gk}-P{Lk}$ 
-$Q_k=Q_{Gk}-Q{Lk}$
+
+$P_k=P_{Gk}-P_{Lk}$ 
+
+$Q_k=Q_{Gk}-Q_{Lk}$
 
 
 
