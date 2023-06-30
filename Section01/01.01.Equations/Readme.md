@@ -28,7 +28,7 @@ Las líneas de transmisión, los transformadores de potencia y las cargas se rep
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   1   |
+| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   2   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
