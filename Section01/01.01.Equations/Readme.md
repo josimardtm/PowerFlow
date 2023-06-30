@@ -12,11 +12,19 @@ Keywords: `Equations` `Power flow` `Formulation`
 
 Los sistemas de potencia contienen una gran cantidad de elementos que permiten conectar a los consumidores de energía eléctrica con las fuentes de generación.
 
-En estado estacionario, estos sistemas se pueden representar por modelos sencillos que permiten conformar circuitos para realizar un análisis de sus condiciones dde operación.
+En estado estacionario, estos sistemas se pueden representar por modelos simplificados que permiten conformar circuitos para realizar un análisis de sus condiciones de operación.
 
-Las líneas de transmisión, los transformadores de potencia y las cargas se representan mediante sus admitancias (o impedancias) y a partir de sus conexiones se puede obtener la matriz de admitancias del sistema.
+El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de los buses, de las líneas de transmisión y de los transformadores.
 
-[Figura]
+<div align="center">
+    <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph\unifilar.svg" title="Diagrama unifilar" width="60%"/>
+</div>
+
+Cada uno de los buses $k$ se asocia con cuatro variables principales: 
+* Magnitud de la tensión
+* Ángulo de fase de la tensión
+* Potencia activa inyectada
+* Potencia reactiva inyectada
 
 ### Potencia Inyectada
 
