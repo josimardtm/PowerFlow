@@ -39,10 +39,12 @@ Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obt
 
 Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias:
 
-$$[Y_{bus}]=\begin{bmatrix}
+$$[Y_{bus}]=
+\begin{bmatrix}
         Y_{11}&Y_{12}\\
         Y_{21}&Y_{22}
-\end{bmatrix}$$
+\end{bmatrix}
+$$
 
 Si el fasor de voltaje del bus $k$ es $\textbf{V_k}=V_k\angle\delta_k$. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
 
