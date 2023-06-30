@@ -39,21 +39,24 @@ Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obt
 
 Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias:
 
-$$[Y_bus]=\begin{bmatrix}Y_{11}&Y_{12}\\Y_{21}&Y_{22}\end{bmatrix}$$
+$$[Y_{bus}]=\begin{bmatrix}
+        Y_{11}&Y_{12}\\
+        Y_{21}&Y_{22}
+\end{bmatrix}$$
 
 Si el fasor de voltaje del bus $k$ es $\textbf{V_k}=V_k\angle\delta_k$. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
 
-$I_1=V_1Y_g+(V_1-V_2)Y_s$
+$$I_1=V_1Y_g+(V_1-V_2)Y_s$$
 
-$I_2=V_2Y_g+(V_2-V_1)Y_s$
+$$I_2=V_2Y_g+(V_2-V_1)Y_s$$
 
 ### Potencia Inyectada a cada bus
 
 La potencia inyectada a cada bus por convención es la resta de la potencia generada menos la potencia demandada.
 
-$P_k=P_{Gk}-P_{Lk}$ 
+$$P_k=P_{Gk}-P_{Lk}$$ 
 
-$Q_k=Q_{Gk}-Q_{Lk}$
+$$Q_k=Q_{Gk}-Q_{Lk}$$
 
 
 
@@ -77,6 +80,5 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 [^1]:[Sistema de valores por unidad](https://es.wikipedia.org/wiki/Sistema_por_unidad)
 
 [comment]:<> (Referencias [^1]: Tomado y/o adaptado de https://www.scielo.org.mx/scielo.php?pid=S2007-78902020000800028&script=sci_arttext#:~:text=El%20desarrollo%20colaborativo%20se%20refiere,inform%C3%A1tico%20funcional%20y%20de%20calidad.)
-[comment]:<> ([Línea de transmisión](Screenshot\electricity-3158345_1280.jpg "Torre de línea de transmisión"))
 [comment]:<> (Enlace a video, imagen de cabecera, alcance, objetivos, requerimientos, diagrama general de procesos, conceptos)
 [comment]:<> (Procedimiento, Actividades complementarias, Preguntas y respuestas, referencias, control de versiones)
