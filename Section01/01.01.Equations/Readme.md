@@ -96,13 +96,13 @@ $$ S_2=\mathbf{V_2} \left[\mathbf{V_2}Y_{21}+\mathbf{V_1}Y_{22} \right]^*$$
 
 De manera mas resumida:
 
-$$ S_1=\mathbf{V_1} \sum{k=1}{2}\mathbf{V_k}^* Y_{1k}^* = V_1 \sum{k=1}{2} V_k y_{1k} e^{\delta_1-\delta_k-\theta_1k}$$
+$$ S_1=\mathbf{V_1} \sum_{k=1}^{2}\mathbf{V_k}^* Y_{1k}^* = V_1 \sum_{k=1}^{2} V_k y_{1k} e^{\delta_1-\delta_k-\theta_1k}$$
 
-$$ S_2=\mathbf{V_2} \sum{k=1}{2}\mathbf{V_k}^* Y_{2k}^* = V_2 \sum{k=1}{2} V_k y_{2k} e^{\delta_2-\delta_k-\theta_2k}$$
+$$ S_2=\mathbf{V_2} \sum_{k=1}^{2}\mathbf{V_k}^* Y_{2k}^* = V_2 \sum_{k=1}^{2} V_k y_{2k} e^{\delta_2-\delta_k-\theta_2k}$$
 
 Estas ecuaciones se pueden extender para una cantidad $n$ de nodos, suponiendo que se conoce la matriz de admitancias. 
 
-$$ S_i=\mathbf{V_i} \sum{k=1}{n}\mathbf{V_k}^* Y_{ik}^* = V_i \sum{k=1}{n} V_k y_{ik} e^{\delta_i-\delta_k-\theta_ik}$$
+$$ S_i=\mathbf{V_i} \sum_{k=1}^{n}\mathbf{V_k}^* Y_{ik}^* = V_i \sum_{k=1}^{n} V_k y_{ik} e^{\delta_i-\delta_k-\theta_ik}$$
 
 $$ i=1,2,...,n $$
 
