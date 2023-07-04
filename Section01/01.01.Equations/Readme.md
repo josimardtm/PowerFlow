@@ -50,7 +50,8 @@ $$\mathbf{I_1}=\mathbf{V_1}Y_g+(\mathbf{V_1}-\mathbf{V_2})Y_s$$
 $$\mathbf{I_2}=\mathbf{V_2}Y_g+(\mathbf{V_2}-\mathbf{V_1})Y_s$$
 
 En este caso, la matriz de admitancias se define como:
-$$[Y_{bus}]=
+
+$$\left[ Y_{bus} \right]=
 \begin{bmatrix}
         Y_{11}&Y_{12}\\
         Y_{21}&Y_{22}
@@ -58,11 +59,12 @@ $$[Y_{bus}]=
 $$
 
 Donde:
+
 $$ Y_{11}=Y_g+Y_s$$
 
 $$ Y_{22}=Y_g+Y_s$$
 
-$$ Y_{12}=Y{21}=Y_s$$
+$$ Y_{12}=Y_{21}=Y_s$$
 
 ### Potencia Inyectada a cada bus
 
