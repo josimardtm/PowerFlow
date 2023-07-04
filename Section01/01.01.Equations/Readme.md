@@ -41,29 +41,70 @@ Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pue
 
 $$\mathbf{[I_{bus}]=[Y_{bus}][V_{bus}]}$$
 
-Si el fasor de voltaje del bus $k$ es $\mathbf{V_k}=V_k\angle\delta_k$. 
-
+<div align="center">
+    <br><img alt="Diagrama de dos buses." src="Graph/corrientes.svg" title="Diagrama de admitancias" width="45%"/>
+</div>
 
 Por ejemplo, para dos buses como se muestran en la figura se tiene: 
+$$\mathbf{I_1}=\mathbf{V_1}Y_g+(\mathbf{V_1}-\mathbf{V_2})Y_s$$
 
-$$I_1=V_1Y_g+(V_1-V_2)Y_s$$
+$$\mathbf{I_2}=\mathbf{V_2}Y_g+(\mathbf{V_2}-\mathbf{V_1})Y_s$$
 
-$$I_2=V_2Y_g+(V_2-V_1)Y_s$$
-
+En este caso, la matriz de admitancias se define como:
 $$[Y_{bus}]=
 \begin{bmatrix}
         Y_{11}&Y_{12}\\
         Y_{21}&Y_{22}
 \end{bmatrix}
-$$
+$$,
+
+Donde:
+$$ Y_{11}=Y_g+Y_s$$
+
+$$ Y_{22}=Y_g+Y_s$$
+
+$$ Y_{12}=Y{21}=Y_s$$
 
 ### Potencia Inyectada a cada bus
 
 La potencia inyectada a cada bus por convención es la resta de la potencia generada menos la potencia demandada.
 
+$$S_k=S_{Gk}-S_{Lk}$$
+
 $$P_k=P_{Gk}-P_{Lk}$$ 
 
 $$Q_k=Q_{Gk}-Q_{Lk}$$
+
+Para el ejemplo de dos buses, la potencia compleja inyectada a cada bus es:
+
+$$ S_1=S_{G1}-S_{L1}=P_1+jQ_1=\mathbf{V_1} \mathbf{I_1}^*$$
+
+$$ S_2=S_{G2}-S_{L2}=P_2+jQ_2=\mathbf{V_2} \mathbf{I_2}^*$$
+
+Sustituyendo las corrientes inyectadas, se tiene:
+
+$$ S_1=\mathbf{V_1} \left[ \mathbf{V_1}Y_g+(\mathbf{V_1}-\mathbf{V_2})Y_s \right]^*$$
+
+$$ S_2=\mathbf{V_2} \left[\mathbf{V_2}Y_g+(\mathbf{V_2}-\mathbf{V_1})Y_s \right]^*$$
+
+Igualmente,
+
+$$ S_1=\mathbf{V_1} \left[ \mathbf{V_1}Y_{11}+\mathbf{V_2}Y_{12} \right]^*$$
+
+$$ S_2=\mathbf{V_2} \left[\mathbf{V_2}Y_{21}+\mathbf{V_1}Y_{22} \right]^*$$
+
+De manera mas resumida:
+
+$$ S_1=\mathbf{V_1} \sum{k=1}{2}\mathbf{V_k}^* Y_{1k}^* = V_1 \sum{k=1}{2} V_k y_{1k} e^{\delta_1-\delta_k-\theta_1k}$$
+
+$$ S_2=\mathbf{V_2} \sum{k=1}{2}\mathbf{V_k}^* Y_{2k}^* = V_2 \sum{k=1}{2} V_k y_{2k} e^{\delta_2-\delta_k-\theta_2k}$$
+
+Estas ecuaciones se pueden extender para una cantidad $n$ de nodos, suponiendo que se conoce la matriz de admitancias. 
+
+$$ S_i=\mathbf{V_i} \sum{k=1}{n}\mathbf{V_k}^* Y_{ik}^* = V_i \sum{k=1}{n} V_k y_{ik} e^{\delta_i-\delta_k-\theta_ik}$$
+
+$$ i=1,2,...,n $$
+
 
 
 
