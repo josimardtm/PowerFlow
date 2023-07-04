@@ -106,10 +106,21 @@ $$ S_i=\mathbf{V_i} \sum_{k=1}^{n}\mathbf{V_k}^* Y_{ik}^* = V_i \sum_{k=1}^{n} |
 
 $$ i=1,2,...,n $$
 
-También, se pueden expresar en forma rectangular para poder obtener las potencias activa y reactiva
+También, se pueden expresar en parte real e imaginaria para poder obtener las potencias activa y reactiva
 
+$$ P_i = V_i \sum_{k=1}^{n} |y_{ik}| V_k cos(\delta_i-\delta_k-\theta_ik)$$
 
+$$ Q_i = V_i \sum_{k=1}^{n} |y_{ik}| V_k sin(\delta_i-\delta_k-\theta_ik)$$
 
+$$ i=1,2,...,n $$
+
+Las admitancias también se pueden mostrar en forma rectangular:
+
+$$ P_i = V_i \sum_{k=1}^{n} V_k [G_{ik} cos(\delta_i-\delta_k) + B_{ik} sen(\delta_i-\delta_k)$$
+
+$$ Q_i = V_i \sum_{k=1}^{n} V_k [G_{ik} sen(\delta_i-\delta_k) - B_{ik} cos(\delta_i-\delta_k)$$
+
+$$ i=1,2,...,n $$
 
 ### Voltajes 
 
