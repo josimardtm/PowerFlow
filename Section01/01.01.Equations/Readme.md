@@ -116,15 +116,15 @@ $$ i=1,2,...,n $$
 
 Las admitancias también se pueden mostrar en forma rectangular:
 
-$$ P_i = V_i \sum_{k=1}^{n} V_k [G_{ik} cos(\delta_i-\delta_k) + B_{ik} sen(\delta_i-\delta_k)$$
+$$ P_i = V_i \sum_{k=1}^{n} V_k [G_{ik} cos(\delta_i-\delta_k) + B_{ik} sen(\delta_i-\delta_k)]$$
 
-$$ Q_i = V_i \sum_{k=1}^{n} V_k [G_{ik} sen(\delta_i-\delta_k) - B_{ik} cos(\delta_i-\delta_k)$$
+$$ Q_i = V_i \sum_{k=1}^{n} V_k [G_{ik} sen(\delta_i-\delta_k) - B_{ik} cos(\delta_i-\delta_k)]$$
 
 $$ i=1,2,...,n $$
 
-### Voltajes 
+La solución del problema de flujo de potencia usando el método de Newton-Raphson se basa en las ecuaciones de potencia inyectada.
 
-
+Este conjunto de ecuaciones no lineales permite obtener la solución para las variables desconocidas de cada uno de los buses. Las variables a calcular dependen del [tipo de bus](../01.02.Classification/Readme.md) en estudio.
 
 ### Control de versiones
 
