@@ -40,7 +40,6 @@ Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obt
 Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias.
 
 $$\mathbf{[I_{bus}]=[Y_{bus}][V_{bus}]}$$
-
 <div align="center">
     <br><img alt="Diagrama de dos buses." src="Graph/corrientes.svg" title="Diagrama de admitancias" width="45%"/>
 </div>
@@ -56,7 +55,7 @@ $$[Y_{bus}]=
         Y_{11}&Y_{12}\\
         Y_{21}&Y_{22}
 \end{bmatrix}
-$$,
+$$
 
 Donde:
 $$ Y_{11}=Y_g+Y_s$$
@@ -116,7 +115,7 @@ $$ i=1,2,...,n $$
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   3   |
+| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   4   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
