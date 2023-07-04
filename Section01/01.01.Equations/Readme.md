@@ -37,7 +37,18 @@ Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obt
 
 ### Corrientes Inyectadas a cada bus
 
-Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias:
+Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias.
+
+$$\mathbf{[I_{bus}]=[Y_{bus}][V_{bus}]}$$
+
+Si el fasor de voltaje del bus $k$ es $\mathbf{V_k}=V_k\angle\delta_k$. 
+
+
+Por ejemplo, para dos buses como se muestran en la figura se tiene: 
+
+$$I_1=V_1Y_g+(V_1-V_2)Y_s$$
+
+$$I_2=V_2Y_g+(V_2-V_1)Y_s$$
 
 $$[Y_{bus}]=
 \begin{bmatrix}
@@ -45,12 +56,6 @@ $$[Y_{bus}]=
         Y_{21}&Y_{22}
 \end{bmatrix}
 $$
-
-Si el fasor de voltaje del bus $k$ es $\mathbf{V_k}=V_k\angle\delta_k$. Por ejemplo, para dos como se muestran en la figura buses se tiene: 
-
-$$I_1=V_1Y_g+(V_1-V_2)Y_s$$
-
-$$I_2=V_2Y_g+(V_2-V_1)Y_s$$
 
 ### Potencia Inyectada a cada bus
 
