@@ -126,6 +126,9 @@ La solución del problema de flujo de potencia usando el método de Newton-Raphs
 
 Este conjunto de ecuaciones no lineales permite obtener la solución para las variables desconocidas de cada uno de los buses. Las variables a calcular dependen del [tipo de bus](../01.02.Classification/Readme.md) en estudio.
 
+### [Ejemplo](EjemploEcuaciones.ipynb)
+
+
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
