@@ -15,10 +15,12 @@ Los sistemas de potencia contienen una gran cantidad de elementos que permiten c
 
 En estado estacionario, estos sistemas se pueden representar por modelos simplificados que permiten conformar circuitos para realizar un análisis de sus condiciones de operación.
 
-El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de los buses, de las líneas de transmisión y de los transformadores.
+El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de los buses (o barras), de las líneas de transmisión y de los transformadores.
 <div align="center">
     <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph/unifilar.svg" title="Diagrama unifilar" width="70%"/>
 </div>
+
+:bulb: **¿Qué es un bus o una barra?**: en el modelo simplificado, un bus abarca el punto de conexión entre elementos que tienen un modelo definido, en el circuito equivalente representa un nodo.
 
 Cada uno de los buses $k$ se asocia con cuatro variables principales: 
 * Magnitud de la tensión $V_k$
@@ -35,7 +37,7 @@ Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obt
 * Matriz de admitancias de buses $[Y_{bus}]$
 * Los elementos de la matriz de admitancias son: $Y_{kk}=$ suma de las admitancias conectadas al nodo $k$ y $Y_{km}=$ -(suma de los elementos conectados entre los buses $k$ y $m$ con $k \ne m$)
 
-### Corrientes Inyectadas a cada bus
+### Corrientes inyectadas a cada bus
 
 Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias.
 
@@ -66,7 +68,7 @@ $$ Y_{22}=Y_g+Y_s$$
 
 $$ Y_{12}=Y_{21}=Y_s$$
 
-### Potencia Inyectada a cada bus
+### Potencia inyectada a cada bus
 
 La potencia inyectada a cada bus por convención es la resta de la potencia generada menos la potencia demandada.
 
