@@ -15,14 +15,16 @@ Los sistemas de potencia contienen una gran cantidad de elementos que permiten c
 
 En estado estacionario, estos sistemas se pueden representar por modelos simplificados que permiten conformar circuitos para realizar un análisis de sus condiciones de operación.
 
-El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de los buses (o barras), de las líneas de transmisión y de los transformadores.
+El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de las barras (o buses), de las líneas de transmisión y de los transformadores.
 <div align="center">
     <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph/unifilar.svg" title="Diagrama unifilar" width="70%"/>
 </div>
 
-:bulb: **¿Qué es un bus o una barra?**: en el modelo simplificado, un bus abarca el punto de conexión entre elementos que tienen un modelo definido, en el circuito equivalente representa un nodo.
+:bulb: **¿Qué es una barra o un bus?**
 
-Cada uno de los buses $k$ se asocia con cuatro variables principales: 
+En el modelo simplificado, una barra abarca el punto de conexión entre elementos que tienen un modelo definido, en el circuito equivalente representa un nodo.
+
+Cada una de las barras $k$ se asocia con cuatro variables principales: 
 * Magnitud de la tensión $V_k$
 * Ángulo de fase de la tensión $\delta_k$
 * Potencia activa inyectada $P_k$

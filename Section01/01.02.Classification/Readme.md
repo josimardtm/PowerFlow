@@ -17,6 +17,6 @@ En general, se identifican tres tipos de barras en la red:
 
 * **Barras de carga** 
 * **Barras de generación**
-* **Barra de referencia** 
+* **Barra de referencia o de compensación** 
 
 
