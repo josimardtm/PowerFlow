@@ -26,7 +26,6 @@ La potencia demandada se puede conocer por registros históricos o por la planif
 Es común que a los nodos de carga se les llame nodos *"P-Q"* porque los valores de las potencias activa y reactiva inyectadas al nodo son conocidos.
 
 Las variables a calcular en los nodos de carga son la magnitud y el ángulo de la tensión.
-
 <div align="center">
     <br><img alt="Nodos de carga." src="Graph/nodoPQ.svg" title="Nodos de carga" width="60%"/>
 </div>
@@ -39,8 +38,7 @@ Tradicionalmente, en los nodos donde se conectan generadores se puede controlar 
 
 Los nodos de generación también se conocen como nodos *"P-V"* porque la potencia activa generada y la magnitud de la tensión son variables conocidas.}
 
-Las variables a calcular en estos nodos son el ángulo de la tensión y la potencia reactiva. 
-
+Las variables a calcular en estos nodos son el ángulo de la tensión y la potencia reactiva.
 <div align="center">
     <br><img alt="Nodos de generación." src="Graph/nodoPV.svg" title="Nodos de generación" width="60%"/>
 </div>
@@ -54,7 +52,6 @@ En la práctica es común asignar un ángulo $\delta_k=0^{\circ}$ al nodo de ref
 El nodo de compensación debe ser uno que tenga generación, pues este suministra la diferencia entre la potencia generada al interior del sistema y el total de la demanda más las pérdidas.
 
 Se asume que la magnitud de la tensión en el nodo de referencia es conocida y es común asignarle $V_k=1 pu$
-
 <div align="center">
     <br><img alt="Nodo de referencia" src="Graph/nodoRef.svg" title="Nodo de referencia" width="60%"/>
 </div>
