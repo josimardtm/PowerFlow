@@ -28,7 +28,7 @@ Es común que a los nodos de carga se les llame nodos *"P-Q"* porque los valores
 Las variables a calcular en los nodos de carga son la magnitud y el ángulo de la tensión.
 
 <div align="center">
-    <br><img alt="Nodos de carga." src="Graph/nodoPQ.svg" title="Nodos de carga" width="70%"/>
+    <br><img alt="Nodos de carga." src="Graph/nodoPQ.svg" title="Nodos de carga" width="60%"/>
 </div>
 
 ### Nodos de generación o de tensión controlada
@@ -42,7 +42,7 @@ Los nodos de generación también se conocen como nodos *"P-V"* porque la potenc
 Las variables a calcular en estos nodos son el ángulo de la tensión y la potencia reactiva. 
 
 <div align="center">
-    <br><img alt="Nodos de generación." src="Graph/nodoPV.svg" title="Nodos de generación" width="70%"/>
+    <br><img alt="Nodos de generación." src="Graph/nodoPV.svg" title="Nodos de generación" width="60%"/>
 </div>
 
 ## Nodo de referencia, de compensación o *"Slack"*
@@ -56,7 +56,7 @@ El nodo de compensación debe ser uno que tenga generación, pues este suministr
 Se asume que la magnitud de la tensión en el nodo de referencia es conocida y es común asignarle $V_k=1 pu$
 
 <div align="center">
-    <br><img alt="Nodo de referencia" src="Graph/nodoRef.svg" title="Nodo de referencia" width="70%"/>
+    <br><img alt="Nodo de referencia" src="Graph/nodoRef.svg" title="Nodo de referencia" width="60%"/>
 </div>
 
 ### Control de versiones
