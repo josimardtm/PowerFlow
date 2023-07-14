@@ -20,10 +20,6 @@ El punto de partida para la formulación del problema de flujo de potencia es un
     <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph/unifilar.svg" title="Diagrama unifilar" width="70%"/>
 </div>
 
-:bulb: **¿Qué es un nodo?**
-
-En el modelo simplificado, un nodo es el punto de conexión entre dos o más elementos.
-
 Cada uno de los nodos $k$ se asocia con cuatro variables principales: 
 * Magnitud de la tensión $V_k$
 * Ángulo de fase de la tensión $\delta_k$
