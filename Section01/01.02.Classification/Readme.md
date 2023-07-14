@@ -5,7 +5,7 @@ Keywords: `Busbars` `Power flow` `Classification` `PV` `PQ` `Slack`
 ### Requerimientos 
 
 * Lectura de referencias a pie de página
-* [Sistema de potencia] (https://es.wikipedia.org/wiki/Sistema_el%C3%A9ctrico_de_potencia)
+* [Sistema de potencia](https://es.wikipedia.org/wiki/Sistema_el%C3%A9ctrico_de_potencia)
 
 ### Necesidad de clasificar los nodos en el sistema de potencia
 
@@ -41,7 +41,7 @@ Las variables a calcular en estos nodos son el ángulo de la tensión y la poten
 
 Para poder solucionar el problema de flujo de potencia, se requiere un nodo que se toma como referencia del ángulo de la tensión para los demás nodos.
 
-En la práctica es común asignar un ángulo $\delta_k=0\circ$ al nodo de referencia. 
+En la práctica es común asignar un ángulo $\delta_k=0^{\circ}$ al nodo de referencia. 
 
 El nodo de compensación debe ser uno que tenga generación, pues este suministra la diferencia entre la potencia generada al interior del sistema y el total de la demanda más las pérdidas.
 

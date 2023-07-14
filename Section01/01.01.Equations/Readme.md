@@ -80,6 +80,10 @@ $$P_k=P_{Gk}-P_{Lk}$$
 
 $$Q_k=Q_{Gk}-Q_{Lk}$$
 
+<div align="center">
+    <br><img alt="Balance de potencia en un nodo." src="Graph/nodok.svg" title="Balance de potencia en un nodo" width="45%"/>
+</div>
+
 Para el ejemplo de dos nodos, la potencia compleja inyectada a cada nodo es:
 
 $$ S_1=S_{G1}-S_{L1}=P_1+jQ_1=\mathbf{V_1} \mathbf{I_1}^*$$
