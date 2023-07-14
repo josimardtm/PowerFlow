@@ -15,16 +15,16 @@ Los sistemas de potencia contienen una gran cantidad de elementos que permiten c
 
 En estado estacionario, estos sistemas se pueden representar por modelos simplificados que permiten conformar circuitos para realizar un análisis de sus condiciones de operación.
 
-El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de las barras (o buses), de las líneas de transmisión y de los transformadores.
+El punto de partida para la formulación del problema de flujo de potencia es un diagrama unifilar del sistema que proporciona los datos de entrada. Entre estos datos se requiere: Información de los nodos, de las líneas de transmisión y de los transformadores.
 <div align="center">
     <br><img alt="Ejemplo de diagrama unifilar de un sistema de potencia." src="Graph/unifilar.svg" title="Diagrama unifilar" width="70%"/>
 </div>
 
-:bulb: **¿Qué es una barra o un bus?**
+:bulb: **¿Qué es un nodo?**
 
-En el modelo simplificado, una barra abarca el punto de conexión entre elementos que tienen un modelo definido, en el circuito equivalente representa un nodo.
+En el modelo simplificado, un nodo es el punto de conexión entre dos o más elementos.
 
-Cada una de las barras $k$ se asocia con cuatro variables principales: 
+Cada uno de los nodos $k$ se asocia con cuatro variables principales: 
 * Magnitud de la tensión $V_k$
 * Ángulo de fase de la tensión $\delta_k$
 * Potencia activa inyectada $P_k$
@@ -36,19 +36,19 @@ Todos los valores se representan en el sistema por unidad [^1].
 
 Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obtiene de los datos de las líneas de transmisión y transformadores. Esta matriz cuadrada tiene tantas filas o columnas como nodos hay en el sistema.
 * Cantidad de nodos $n$
-* Matriz de admitancias de buses $[Y_{bus}]$
+* Matriz de admitancias de nodos $[Y_{bus}]$
 * Los elementos de la matriz de admitancias son: $Y_{kk}=$ suma de las admitancias conectadas al nodo $k$ y $Y_{km}=$ -(suma de los elementos conectados entre los buses $k$ y $m$ con $k \ne m$)
 
-### Corrientes inyectadas a cada bus
+### Corrientes inyectadas a cada nodo
 
-Las corrientes inyectadas a cada uno de los buses del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias.
+Las corrientes inyectadas a cada uno de los nodos del sistema de potencia se pueden calcular a partir de los voltajes y la matriz de admitancias.
 
 $$\mathbf{[I_{bus}]=[Y_{bus}][V_{bus}]}$$
 <div align="center">
-    <br><img alt="Diagrama de dos buses." src="Graph/corrientes.svg" title="Diagrama de admitancias" width="45%"/>
+    <br><img alt="Diagrama de dos nodos." src="Graph/corrientes.svg" title="Diagrama de admitancias" width="45%"/>
 </div>
 
-Por ejemplo, para dos buses como se muestran en la figura se tiene: 
+Por ejemplo, para dos nodos como se muestran en la figura se tiene: 
 $$\mathbf{I_1}=\mathbf{V_1}Y_g+(\mathbf{V_1}-\mathbf{V_2})Y_s$$
 
 $$\mathbf{I_2}=\mathbf{V_2}Y_g+(\mathbf{V_2}-\mathbf{V_1})Y_s$$
@@ -70,9 +70,9 @@ $$ Y_{22}=Y_g+Y_s$$
 
 $$ Y_{12}=Y_{21}=Y_s$$
 
-### Potencia inyectada a cada bus
+### Potencia inyectada a cada nodo
 
-La potencia inyectada a cada bus por convención es la resta de la potencia generada menos la potencia demandada.
+La potencia inyectada a cada nodo por convención es la resta de la potencia generada menos la potencia demandada.
 
 $$S_k=S_{Gk}-S_{Lk}$$
 
@@ -80,7 +80,7 @@ $$P_k=P_{Gk}-P_{Lk}$$
 
 $$Q_k=Q_{Gk}-Q_{Lk}$$
 
-Para el ejemplo de dos buses, la potencia compleja inyectada a cada bus es:
+Para el ejemplo de dos nodos, la potencia compleja inyectada a cada nodo es:
 
 $$ S_1=S_{G1}-S_{L1}=P_1+jQ_1=\mathbf{V_1} \mathbf{I_1}^*$$
 
@@ -128,7 +128,7 @@ $$ i=1,2,...,n $$
 
 La solución del problema de flujo de potencia usando el método de Newton-Raphson se basa en las ecuaciones de potencia inyectada.
 
-Este conjunto de ecuaciones no lineales permite obtener la solución para las variables desconocidas de cada uno de los buses. Las variables a calcular dependen del [tipo de bus](../01.02.Classification/Readme.md) en estudio.
+Este conjunto de ecuaciones no lineales permite obtener la solución para las variables desconocidas de cada uno de los nodos. Las variables a calcular dependen del [tipo de nodo](../01.02.Classification/Readme.md) en estudio.
 
 ### [Ejemplo](EjemploEcuaciones.ipynb)
 
@@ -137,13 +137,13 @@ Este conjunto de ecuaciones no lineales permite obtener la solución para las va
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   4   |
+| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   5   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
 _¿Encontraste útil este repositorio? Apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [Josimardtm](https://github.com/josimardtm) en GitHub._
 
-| [Anterior](../Readme.md) | [:house: Inicio](../../Readme.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](../01.02.Classification/Readme.md) |
+| [Anterior](../Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](../01.02.Classification/Readme.md) |
 |--------------------------|-----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
 
 [^1]:[Sistema de valores por unidad](https://es.wikipedia.org/wiki/Sistema_por_unidad)
