@@ -1,4 +1,4 @@
-## Actividad 1 - Ecuaciones fundamentales del flujo de potencia
+## Ecuaciones fundamentales del flujo de potencia
 
 Keywords: `Equations` `Power flow` `Formulation`
 
