@@ -30,9 +30,7 @@ x_1\\
 x_2\\
 \vdots\\
 x_n\\
-\end{bmatrix} 
-
-\mathbf{f(x)}=\begin{bmatrix} 
+\end{bmatrix} \mathbf{f(x)}=\begin{bmatrix} 
 f_1(x_1,x_2,...,x_n)\\
 f_2(x_1,x_2,...,x_n)\\
 \vdots\\
