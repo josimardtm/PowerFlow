@@ -11,15 +11,15 @@ Keywords: `Power flow` `Newton-Raphson`
 
 El método de Newton-Raphson para la solución de sistemas de ecuaciones no lineales permite calcular una solución numérica para $\mathbf{f(x)=0}$ con $\mathbf{f(x)}:\mathbb{R}^n \rightarrow \mathbb{R}^n$.
 
-Se parte de valores iniciales de $\mathbf{x}$ con los que $\mathbf{f(x)}\ne 0$ para llegar a un valor $\mathbf{x}$ tal que $\mathbf{f(x+\Deltax)=0}$ .
+Se parte de valores iniciales de $\mathbf{x}$ con los que $\mathbf{f(x)}\ne 0$ para llegar a un valor $\mathbf{x}$ tal que $\mathbf{f(x+\Delta x)=0}$ .
 
 Se utiliza la serie de Taylor truncada en la primera derivada:
 
-$$\mathbf{f(x)+\Deltax} \approx \mathbf{f(x)}+[J]\mathbf{\Deltax}+... =0$$
+$$\mathbf{f(x)+\Delta x} \approx \mathbf{f(x)}+[J]\mathbf{\Delta x}+... =0$$
 
 Luego,
 
-$$\mathbf{\Deltax}=-[J]^{-1}\mathbf{f(x)}$$
+$$\mathbf{\Delta x}=-[J]^{-1}\mathbf{f(x)}$$
 
 ### Control de versiones
 
