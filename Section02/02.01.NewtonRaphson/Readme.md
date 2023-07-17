@@ -5,9 +5,21 @@ Keywords: `Power flow` `Newton-Raphson`
 ### Requerimientos
 
 * Lectura de referencias a pie de página
-* [Método de Newton](https://es.wikipedia.org/wiki/M%C3%A9todo_de_Newton)
+* [Método de Newton-Raphson](https://www.geogebra.org/m/XCrwWHzy)
 
 ### Método de Newton-Raphson para la solución de sistemas de ecuaciones no lineales
+
+El método de Newton-Raphson para la solución de sistemas de ecuaciones no lineales permite calcular una solución numérica para $\mathbf{f(x)=0}$ con $\mathbf{f(x)}:\mathbb{R}^n \rightarrow \mathbb{R}^n$.
+
+Se parte de valores iniciales de $\mathbf{x}$ con los que $\mathbf{f(x)}\ne 0$ para llegar a un valor $\mathbf{x}$ tal que $\mathbf{f(x+\Deltax)=0}$ .
+
+Se utiliza la serie de Taylor truncada en la primera derivada:
+
+$$\mathbf{f(x)+\Deltax} \approx \mathbf{f(x)}+[J]\mathbf{\Deltax}+... =0$$
+
+Luego,
+
+$$\mathbf{\Deltax}=-[J]^{-1}\mathbf{f(x)}$$
 
 ### Control de versiones
 
