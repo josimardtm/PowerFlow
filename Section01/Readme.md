@@ -14,7 +14,7 @@ El problema del flujo de potencia consiste en calcular la magnitud de voltaje y 
 | Contenido                                                                                      | Alcance                                                                                                         |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [Ecuaciones del flujo de potencia](/Section01/01.01.Equations/Readme.md)                       | La formulación de las ecuaciones fundamentales es la base del problema de flujo de carga                        |
-| [Clasificación de los buses para flujo de potencia](/Section01/01.02.Classification/Readme.md) | Para poder solucionar el problema de flujo de carga, es necesario clasificar los buses del sistema de potencia. |
+| [Clasificación de los nodos para flujo de potencia](/Section01/01.02.Classification/Readme.md) | Para poder solucionar el problema de flujo de carga, es necesario clasificar los buses del sistema de potencia. |
 
 ##
 

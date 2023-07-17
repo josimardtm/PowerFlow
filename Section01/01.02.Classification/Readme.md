@@ -19,9 +19,7 @@ En general, se identifican tres tipos de nodos en la red que se describen a cont
 
 Los nodos que no tienen generación, se pueden identificar como nodos de carga. 
 
-En estos la potencia generada es nula y se tiene conocimiento de los valores reales o aproximados de la potencia demandada.
-
-La potencia demandada se puede conocer por registros históricos o por la planificación del sistema de potencia.
+En estos la potencia generada es nula y se tiene conocimiento de los valores reales o aproximados de la potencia demandada. La potencia demandada se puede conocer por registros históricos o por la planificación del sistema de potencia.
 
 Es común que a los nodos de carga se les llame nodos *"P-Q"* porque los valores de las potencias activa y reactiva inyectadas al nodo son conocidos.
 
@@ -32,9 +30,7 @@ Las variables a calcular en los nodos de carga son la magnitud y el ángulo de l
 
 ### Nodos de generación o de tensión controlada
 
-Cualquier nodo del sistema que tenga la capacidad para mantener una magnitud de tensión constante se clasifica como nodo de generación o de tensión controlada.
-
-Tradicionalmente, en los nodos donde se conectan generadores se puede controlar la magnitud de la tensión por medio de la excitación del generador y la potencia activa por medio de la potencia mecánica que se aplica al generador.
+Cualquier nodo del sistema que tenga la capacidad para mantener una magnitud de tensión constante se clasifica como nodo de generación o de tensión controlada. Tradicionalmente, en los nodos donde se conectan generadores se puede controlar la magnitud de la tensión por medio de la excitación del generador y la potencia activa por medio de la potencia mecánica que se aplica al generador.
 
 Los nodos de generación también se conocen como nodos *"P-V"* porque la potencia activa generada y la magnitud de la tensión son variables conocidas.}
 
@@ -55,6 +51,12 @@ Se asume que la magnitud de la tensión en el nodo de referencia es conocida y e
 <div align="center">
     <br><img alt="Nodo de referencia" src="Graph/nodoRef.svg" title="Nodo de referencia" width="60%"/>
 </div>
+
+### Tabla de datos de los nodos
+
+Antes de comenzar a aplicar métodos de solución para el problema de flujo de potencia, es útil organizar la información de todos los nodos del sistema con su clasificación y sus variables conocidas.
+
+
 
 ### Control de versiones
 
