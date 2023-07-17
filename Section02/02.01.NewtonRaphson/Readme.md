@@ -25,13 +25,7 @@ El cálculo de las variables en una nueva iteración $r$ se hace de la siguiente
 
 $$\mathbf{x}^{(r)}=\mathbf{x}^{(r-1)}+\mathbf{\Delta x}^{(r-1)}=\mathbf{x}^{(r-1)}-[J^{(r-1)}]^{-1}\mathbf{f(x)}^{(r-1)}$$
 
-$$\mathbf{x}=
-\begin{bmatrix}
-x_1\\
-x_2\\
-\vdots\\
-x_n\\
-\end{bmatrix}
+$$\mathbf{x}=\begin{bmatrix} x_1\\ x_2\\ \vdots\\ x_n\\ \end{bmatrix}$$
 
 ### Control de versiones
 
