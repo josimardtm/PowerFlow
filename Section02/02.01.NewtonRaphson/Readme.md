@@ -23,7 +23,7 @@ Donde $[J]$ es la matriz Jacobiana[^1] de $\mathbf{f(x)}$
 
 El cálculo de las variables en una nueva iteración $r$ se hace de la siguiente manera:
 
-$$\mathbf{x^{r}}=\mathbf{x^{r-1}}+\mathbf{\Delta x^{r-1}}=\mathbf{x^{r-1}}-[J^{(r-1)}]^{-1}\mathbf{f(x)^{(r-1)}}$$
+$$\mathbf{x}^{(r)}=\mathbf{x}^{(r-1)}+\mathbf{\Delta x}^{(r-1)}=\mathbf{x}^{(r-1)}-[J^{(r-1)}]^{-1}\mathbf{f(x)}^{(r-1)}$$
 
 $$\Delta x
 
