@@ -32,12 +32,12 @@ x_1\\
 x_2\\
 \vdots\\
 x_n\\
-\end{bmatrix} \mathbf{f(x)}= \begin{bmatrix} 
+\end{bmatrix}; \mathbf{f(x)}= \begin{bmatrix} 
 f_1(x_1,x_2,...,x_n)\\
 f_2(x_1,x_2,...,x_n)\\
 \vdots\\
 f_m((x_1,x_2,...,x_n)\\
-\end{bmatrix} \mathbf{[J]}=\begin{bmatrix} 
+\end{bmatrix}; \mathbf{[J]}=\begin{bmatrix} 
 \frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & ... & \frac{\partial f_1}{\partial x_n} \\
 \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & ... & \frac{\partial f_2}{\partial x_n} \\
 \vdots & \vdots & \ddots & \vdots\\
