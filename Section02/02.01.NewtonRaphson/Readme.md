@@ -49,8 +49,9 @@ f_m((x_1,x_2,...,x_n)\\
 Recordemos que el problema de flujo de potencia está dado por las ecuaciones de inyección de potencia a cada uno de los nodos del sistema. Para resolver este sistema de ecuaciones simultáneo, se puede aplicar el método de Newton-Raphson teniendo en cuenta que:
 
 $$\mathbf{f(x)}= \begin{bmatrix} 
-[\Delta P] \\
-[\Delta Q]\\
+\mathbf{\Delta P} \\
+---\\
+\mathbf{\Delta Q} \\
 \end{bmatrix}; \begin{matrix}
 \Delta P_i=P_{esp,i}-P_i \\
 \Delta Q_j=Q_{esp,j}-Q_j \\
