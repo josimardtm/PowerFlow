@@ -11,10 +11,10 @@ Este curso es una introducción al problema de flujos de potencia y los métodos
 
 El problema de flujo de potencia permite evaluar las condiciones de operación de un sistema eléctrico de potencia en estado estable, a través de la solución de las ecuaciones que relacionan la potencia inyectada en cada nodo y el voltaje correspondiente.
 
-| Contenido                                                                                     | Alcance                                                                                                         |
-|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [Ecuaciones fundamentales del flujo de potencia](Section01/01.01.Equations/Readme.md)         | La formulación de las ecuaciones fundamentales es la base del problema de flujo de carga                        |
-| [Clasificación de los nodos para flujo de potencia](Section01/01.02.Classification/Readme.md) | Para poder solucionar el problema de flujo de carga, es necesario clasificar los buses del sistema de potencia. |
+| Contenido                                                                                                    | Alcance                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [Ecuaciones fundamentales del flujo de potencia](Section01/01.01.Equations/Readme.md)                        | La formulación de las ecuaciones de potencia inyectada es la base del problema de flujos de potencia                |
+| [Clasificación de los nodos para el estudio de flujos de potencia](Section01/01.02.Classification/Readme.md) | Para poder solucionar el problema de flujos de potencia, es necesario clasificar los buses del sistema de potencia. |
 
 ## [Sección 2 - Métodos de solución aplicados al problema de flujos de potencia](Section02/Readme.md)
 

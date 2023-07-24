@@ -25,6 +25,7 @@ El cálculo de las variables en una nueva iteración $r$ se hace de la siguiente
 
 $$\mathbf{x}^{(r)}=\mathbf{x}^{(r-1)}+\mathbf{\Delta x}^{(r-1)}=\mathbf{x}^{(r-1)}-[J^{(r-1)}]^{-1}\mathbf{f(x)}^{(r-1)}$$
 
+Donde:
 $$\mathbf{x}=\begin{bmatrix} 
 x_1\\
 x_2\\
@@ -35,8 +36,18 @@ f_1(x_1,x_2,...,x_n)\\
 f_2(x_1,x_2,...,x_n)\\
 \vdots\\
 f_m((x_1,x_2,...,x_n)\\
+\end{bmatrix} \mathbf{J}=\begin{bmatrix} 
+\frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & ... & \frac{\partial f_1}{\partial x_n} \\
+\frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & ... & \frac{\partial f_2}{\partial x_n} \\
+\vdots & \vdots & \vdots & \vdots\\
+\frac{\partial f_n}{\partial x_1} & \frac{\partial f_n}{\partial x_2} & ... & \frac{\partial f_n}{\partial x_n} \\ 
 \end{bmatrix}
+
+
 $$
+
+
+###
 
 ### Control de versiones
 

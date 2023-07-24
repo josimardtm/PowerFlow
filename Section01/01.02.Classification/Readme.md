@@ -1,4 +1,4 @@
-## Clasificación de los nodos para el estudio de flujo de potencia
+## Clasificación de los nodos para el estudio de flujos de potencia
 
 Keywords: `Busbars` `Power flow` `Classification` `PV` `PQ` `Slack`
 

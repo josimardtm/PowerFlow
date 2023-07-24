@@ -132,7 +132,6 @@ Este conjunto de ecuaciones no lineales permite obtener la solución para las va
 
 ### [Ejemplo](EjemploEcuaciones.ipynb)
 
-
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
