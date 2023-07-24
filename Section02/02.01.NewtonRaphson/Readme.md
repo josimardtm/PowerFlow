@@ -57,7 +57,7 @@ $$\mathbf{f(x)}= \begin{bmatrix}
 \Delta Q_j=Q_{esp,j}-Q_j \\
 \end{matrix} $$
 
-Donde $\P_{esp,i}$ es la potencia activa especificada o conocida para los nodos de generación y de carga, mientras que $\Delta Q_{esp,j}$ es la potencia reactiva especificada o conocida para los nodos de carga. 
+Donde $\Delta P_{esp,i}$ es la potencia activa especificada o conocida para los nodos de generación y de carga, mientras que $\Delta Q_{esp,j}$ es la potencia reactiva especificada o conocida para los nodos de carga. 
 
 ### Control de versiones
 
