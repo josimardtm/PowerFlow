@@ -73,15 +73,17 @@ Entonces, las funciones que se resuelven buscan lograr que la diferencia entre l
 
 Aplicando el método de Newton-Raphson, tenemos que $-\mathbf{f(x)}=[J]\mathbf{\Delta x}$, pero con la definición dada para $\mathbf{f(x)}$:
 
-$$\mathbf{-f(x)}= \begin{matrix} 
+$$\mathbf{-f(x)}= \begin{bmatrix} 
 -\mathbf{\Delta P} \\
 --\\
 -\mathbf{\Delta Q} \\
-\end{matrix} = \begin{matrix}
+\end{bmatrix} = \begin{bmatrix}
 \frac{\partial Delta P_i}{\partial \delta_i} + \frac{\partial Delta P_i}{\partial V_j}\\
 --\\
 \frac{\partial Delta Q_j}{\partial \delta_i} + \frac{\partial Delta Q_i}{\partial V_j}\\
-\end{matrix} $$
+\end{bmatrix} $$
+
+
 
 ### Control de versiones
 
