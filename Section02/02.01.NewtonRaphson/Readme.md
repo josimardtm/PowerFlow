@@ -44,8 +44,19 @@ f_m((x_1,x_2,...,x_n)\\
 \frac{\partial f_n}{\partial x_1} & \frac{\partial f_n}{\partial x_2} & ... & \frac{\partial f_n}{\partial x_n} \\ 
 \end{bmatrix} $$
 
+### Formulación del método de Newton-Raphson para la solución de flujos de potencia
 
-###
+Recordemos que el problema de flujo de potencia está dado por las ecuaciones de inyección de potencia a cada uno de los nodos del sistema. Para resolver este sistema de ecuaciones simultáneo, se puede aplicar el método de Newton-Raphson teniendo en cuenta que:
+
+$$\mathbf{f(x)}= \begin{bmatrix} 
+[\Delta P] \\
+[\Delta Q]\\
+\end{bmatrix}; \begin{matrix}
+\Delta P_i=P_{esp,i}-P_i \\
+\Delta Q_j=Q_{esp,j}-Q_j \\
+\end{matrix} $$
+
+Donde $\P_{esp,i}$ es la potencia activa especificada o conocida para los nodos de generación y de carga, mientras que $\Delta Q_{esp,j}$ es la potencia reactiva especificada o conocida para los nodos de carga. 
 
 ### Control de versiones
 
