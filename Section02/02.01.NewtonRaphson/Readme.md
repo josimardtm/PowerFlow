@@ -17,7 +17,7 @@ Se utiliza la serie de Taylor truncada en la primera derivada:
 
 $$\mathbf{f(x+\Delta x)} \approx \mathbf{f(x)}+[J]\mathbf{\Delta x}+... =0$$
 
-Luego, $\mathbf{\Delta x}=-[J]^{-1}\mathbf{f(x)}$
+Luego, $\mathbf{f(x)}=-[J]\mathbf{\Delta x} \Rigtharrow  \mathbf{\Delta x}=-[J]^{-1}\mathbf{f(x)}$
 
 Donde $[J]$ es la matriz Jacobiana[^1] de $\mathbf{f(x)}$
 
@@ -50,14 +50,34 @@ Recordemos que el problema de flujo de potencia está dado por las ecuaciones de
 
 $$\mathbf{f(x)}= \begin{bmatrix} 
 \mathbf{\Delta P} \\
----\\
+--\\
 \mathbf{\Delta Q} \\
 \end{bmatrix}; \begin{matrix}
 \Delta P_i=P_{esp,i}-P_i \\
 \Delta Q_j=Q_{esp,j}-Q_j \\
 \end{matrix} $$
 
-Donde $\Delta P_{esp,i}$ es la potencia activa especificada o conocida para los nodos de generación y de carga, mientras que $\Delta Q_{esp,j}$ es la potencia reactiva especificada o conocida para los nodos de carga. 
+Donde $\Delta P_{esp,i}$ es la potencia activa especificada o conocida para los nodos de generación y de carga, mientras que $\Delta Q_{esp,j}$ es la potencia reactiva especificada o conocida para los nodos de carga. Estas son las variables conocidas de potencia de todos los nodos.
+
+Además, las variables del sistema de ecuaciones son:
+
+$$ \mathbf{x}= \begin{bmatrix}
+\mathbf{\delta}\\
+--\\
+\mathbf{V}\\
+\end{bmatrix}$$
+
+Donde $\delta_i$ son los ángulos de los nodos de generación y de carga, mientras $V_j$ son las magnitudes de voltaje de los nodos de carga. Es decir, las variables desconocidas de los voltajes de todos los nodos.
+
+
+
+
+Entonces, las funciones que se resuelven buscan lograr que la diferencia entre los valores de potencia conocidos en los nodos sea prácticamente igual a la potencia calculada en los nodos. Estas diferencias deben ser menores a una tolerancia que se representa por $\Epsilon$. Comúnmente, esta tolerancia es muy pequeña, por debajo de $10^-4$.
+
+Aplicando el método de Newton-Raphson, tenemos que $-\mathbf{f(x)}=[J]\mathbf{\delta x}$, pero con la definición dada para $\mathbf{f(x)}$:
+
+
+
 
 ### Control de versiones
 
