@@ -1,9 +1,9 @@
 <div align="center">
-  <br><img alt="Centro de Estudios en Energía" src=".icons/banner-cee-top.jpg" width="100%" href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" >
+    <a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" target="_blank"><img src=".icons/banner-cee-top.jpg" alt="Centro de estudios en energía" width="100%" border="0" /></a>
 </div>
 
 <div align="center">
-  <br><img alt="PowerFlow" src=".icons/banner1.svg" width="100%">
+    <a href="https://github.com/josimardtm/PowerFlow" target="_blank"><img src=".icons/banner1.svg" alt="Centro de estudios en energía" width="100%" border="0" /></a>
 </div>
 
 # Power Flow

@@ -1,9 +1,9 @@
 <div align="center">
-  <br><img alt="Centro de Estudios en Energía" src="../.icons/banner-cee-top.jpg" width="100%" href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" >
+    <a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" target="_blank"><img src="../.icons/banner-cee-top.jpg" alt="Centro de estudios en energía" width="100%" border="0" /></a>
 </div>
 
 <div align="center">
-  <br><img alt="PowerFlow" src="../.icons/banner1.svg" width="100%">
+    <a href="https://github.com/josimardtm/PowerFlow" target="_blank"><img src="../.icons/banner1.svg" alt="Centro de estudios en energía" width="100%" border="0" /></a>
 </div>
 
 ## Sección 1 - Formulación del problema de flujos de potencia  
@@ -29,5 +29,5 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 |--------------------------------|------------------------------------------------------------------------------------|----------------------------------------|
 
 <div align="center">
-  <br><img alt="Obtener certificado" src="../.icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
+    <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="../.icons/banner-pie-de-pagina.jpg" alt="Certificado" width="100%" border="0" /></a>
 </div>
