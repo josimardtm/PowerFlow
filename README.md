@@ -33,12 +33,12 @@ El conocimiento de los métodos numéricos para la solución del problema de flu
 
 ###
 
-<div align="center">
-  <br><img alt="Obtener certificado" src=".icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
-</div>
-
 _:beginner: Ayuda / Colabora: a través de la pestaña _[Discussions](https://github.com/josimardtm/PowerFlow/discussions)_ localizada en la parte superior de esta ventana, podrás encontrar y participar en los [_anuncios_](https://github.com/josimardtm/PowerFlow/discussions/categories/announcements) publicados, enviarnos tus [_ideas_](https://github.com/josimardtm/PowerFlow/discussions/categories/ideas) para actividades complementarias, participar en preguntas, respuestas y consultas específicas [_Q&A_](https://github.com/josimardtm/PowerFlow/discussions/categories/q-a) y realizar [_consultas generales_](https://github.com/josimardtm/PowerFlow/discussions/categories/general)._
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](LICENSE.md)._
 
 _¿Encontraste útil este repositorio? Apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [Josimardtm](https://github.com/josimardtm) en GitHub._
+
+<div align="center">
+  <br><img alt="Obtener certificado" src=".icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
+</div>

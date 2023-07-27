@@ -1,4 +1,8 @@
 <div align="center">
+  <br><img alt="Centro de Estudios en Energía" src="../.icons/banner-cee-top.jpg" width="100%" href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" >
+</div>
+
+<div align="center">
   <br><img alt="PowerFlow" src="../.icons/banner1.svg" width="100%">
 </div>
 
@@ -18,9 +22,6 @@ Esta sección le permitirá conocer la aplicación del método de Newton-Raphson
 | [Método Desacoplado Rápido](02.02.FastDecoupled/Readme.md) | Este método simplificado permite obtener una solución aproximada de los flujos de potencia.      |
 
 ##
-<div align="center">
-  <br><img alt="Obtener certificado" src="../.icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
-</div>
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
@@ -28,3 +29,7 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 
 | [:house: Inicio](../README.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](02.01.NewtonRaphson/Readme.md) |
 |--------------------------------|------------------------------------------------------------------------------------|--------------------------------------------|
+
+<div align="center">
+  <br><img alt="Obtener certificado" src="../.icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
+</div>

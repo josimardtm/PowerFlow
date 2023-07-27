@@ -1,4 +1,8 @@
 <div align="center">
+  <br><img alt="Centro de Estudios en Energía" src="../.icons/banner-cee-top.jpg" width="100%" href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" >
+</div>
+
+<div align="center">
   <br><img alt="PowerFlow" src="../.icons/banner1.svg" width="100%">
 </div>
 
@@ -17,13 +21,13 @@ El problema del flujo de potencia consiste en calcular la magnitud de voltaje y 
 | [Clasificación de los nodos para el estudio de flujos de potencia](/Section01/01.02.Classification/Readme.md) | Para poder solucionar el problema de flujos de potencia, es necesario clasificar los buses del sistema de potencia. |
 
 ##
-<div align="center">
-  <br><img alt="Obtener certificado" src="../.icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
-</div>
-
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
 _¿Encontraste útil este repositorio? Apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [Josimardtm](https://github.com/josimardtm) en GitHub._
 
 | [:house: Inicio](../README.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](01.01.Equations/Readme.md) |
 |--------------------------------|------------------------------------------------------------------------------------|----------------------------------------|
+
+<div align="center">
+  <br><img alt="Obtener certificado" src="../.icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
+</div>
