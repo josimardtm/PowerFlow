@@ -17,7 +17,7 @@ Se utiliza la serie de Taylor truncada en la primera derivada:
 
 $$\mathbf{f(x+\Delta x)} \approx \mathbf{f(x)}+[J]\mathbf{\Delta x}+... =0$$
 
-Luego, $\mathbf{f(x)}=-[J]\mathbf{\Delta x} \Rigtharrow  \mathbf{\Delta x}=-[J]^{-1}\mathbf{f(x)}$
+Luego, $\mathbf{f(x)}=-[J]\mathbf{\Delta x} \Rightarrow  \mathbf{\Delta x}=-[J]^{-1}\mathbf{f(x)}$
 
 Donde $[J]$ es la matriz Jacobiana[^1] de $\mathbf{f(x)}$
 
@@ -125,13 +125,19 @@ Donde las submatrices del Jacobiano se pueden calcular usando las siguientes ecu
 | $H_{km}=\frac{\partial P_k}{\partial\delta_m}=V_k V_m (G_{km} \sin \delta_{km}-B_{km} \cos\delta_{km})$   | $H_{km}=-Q_k-B_{kk} V_k^2$ |
 | $N_{km}=V_m \frac{\partial P_k}{\partial V_m}=V_k V_m (G_{km} \cos \delta_{km}+B_{km}  \sin \delta_{km})$ | $N_{km}=P_k+G_{kk} V_k^2$  |
 | $M_{km}=\frac{\partial Q_k}{\partial\delta_m}=-V_k V_m (G_{km}  \cos \delta_{km}+B_{km} \sin \delta_{km}$ | $M_{km}=P_k-G_{kk} V_k^2$  |
-| $L_{km}=V_m \frac{\partial Q_k}{\partial V_m}=V_k V_m (G_{km} \sin \delta_{km}-B_{km} \cos \delta_{km})$  | $L_{km}=Q_k-B_{kk} V_k^2   |
+| $L_{km}=V_m \frac{\partial Q_k}{\partial V_m}=V_k V_m (G_{km} \sin \delta_{km}-B_{km} \cos \delta_{km})$  | $L_{km}=Q_k-B_{kk} V_k^2$  |
+
+Luego de definir las ecuaciones que conforman el núcleo del método de Newton-Raphson aplicado a la solución de flujos de potencia. Podemos establecer un algoritmo general para resolver el problema. En la siguiente figura se muestra un diagrama de flujo que sirve de guía para la implementación del método.
+
+<div align="center">
+    <br><img alt="Algoritmo para Newton-Raphson aplicado a Flujos de Potencia." src="Graph/nrflow.vsdx" title="Algoritmo" width="70%"/>
+</div>
 
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   5   |
+| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   7   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
