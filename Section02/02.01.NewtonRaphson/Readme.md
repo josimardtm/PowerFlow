@@ -120,10 +120,11 @@ M | L \\
 
 Donde las submatrices del Jacobiano se pueden calcular usando las siguientes ecuaciones:
 
-| Para $k\ne m$                                                                                           | Para $k=m$                |
-|---------------------------------------------------------------------------------------------------------|---------------------------|
-| $H_{km}=\frac{\partial P_k}{\partial\delta_m}=V_k V_m (G_{km} \sin \delta_{km}-B_{km} \cos\delta_{km})$ | H_{km}=-Q_k-B_{kk}\ V_k^2 |
-| ------------------------------------------------------------------------------------------------------- | ------------------------- |
+| Para $k\ne m$                                                                                           | Para $k=m$                 |
+|---------------------------------------------------------------------------------------------------------|----------------------------|
+| $H_{km}=\frac{\partial P_k}{\partial\delta_m}=V_k V_m (G_{km} \sin \delta_{km}-B_{km} \cos\delta_{km})$ | $H_{km}=-Q_k-B_{kk} V_k^2$ |
+| ------------------------------------------------------------------------------------------------------- | -------------------------  |
+| $N_{km}=V_m (\partial P_k/\partial V_m)=V_k V_m (G_{km} \cos \delta_{km}+B_{km}  \sin \delta_{km})$     | $N_{km}=P_k+G_{kk} V_k^2$  |
 
 ### Control de versiones
 
