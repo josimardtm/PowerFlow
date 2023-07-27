@@ -49,7 +49,7 @@ Con este sistema, se asume que:
 * $V_k \approx 1$ para todos los nodos, es decir que las tensiones no se alejan significativamente de su valor nominal.
 * $G_{km} \ll B_{km}$ para cualquier par de nodos, es decir que las líneas y transformadores tienen bajos niveles de componente resistivo.
 * $\cos (\delta_k-\delta_m) \approx 1$ y $\sin (\delta_k-\delta_m) \approx 0$, esto indica que la diferencia entre los ángulos no debe ser significativa.
-* $Q_k \ll B_kk$ la inyección de potencia reactiva es baja. 
+* $Q_k \ll B_{kk}$ lo que indica que la inyección de potencia reactiva es baja. 
 
 Con estos supuestos se obtiene que:
 * $[H]=[B_1]$, donde los elementos de la matriz $[B_1]$ son $-B_km=-Imag(Y_km)$
@@ -82,7 +82,7 @@ $$ \mathbf{[\Delta Q]} = \mathbf{[B_2]} \mathbf{[\frac{\Delta V}{V}]} $$
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   2   |
+| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   4   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
