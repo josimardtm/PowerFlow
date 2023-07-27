@@ -1,5 +1,5 @@
 <div align="center">
-  <br><img alt="Centro de Estudios en Energía" src=".icons/banner-cee-top.svg" width="100%" href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" >
+  <br><img alt="Centro de Estudios en Energía" src=".icons/banner-cee-top.png" width="100%" href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" >
 </div>
 
 <div align="center">
