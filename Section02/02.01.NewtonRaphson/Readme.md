@@ -78,12 +78,29 @@ $$\mathbf{-f(x)}= \begin{bmatrix}
 --\\
 -\mathbf{\Delta Q} \\
 \end{bmatrix} = \begin{bmatrix}
-\frac{\partial Delta P_i}{\partial \delta_i} \frac{\partial \Delta P_i}{\partial V_j} \\
+\frac{\partial \Delta P_i}{\partial \delta_i} | \frac{\partial \Delta P_i}{\partial V_j} \\
 --\\
-\frac{\partial Delta Q_j}{\partial \delta_i} \frac{\partial \Delta Q_i}{\partial V_j} \Delta \V_j\\
+\frac{\partial \Delta Q_j}{\partial \delta_i} | \frac{\partial \Delta Q_j}{\partial V_j} \\
 \end{bmatrix} \begin{bmatrix}
 \Delta \delta_i\\
 \Delta V_j
+\end{bmatrix}$$
+
+Donde $i$ son los índices de los nodos de carga y de generación, mientras que $j$ representa los índices de los nodos de carga. 
+
+Para mejorar la simetría numérica de la matriz jacobiana, se reformula el sistema usando como variable $\frac{\Delta V_j}{V_j}$ en vez de $\Delta V_j$. Además, se sabe que $\frac{\partial \Delta P_i}{\partial \x_i}=\frac{\partial P_i}{\partial \x_i}$ y de la misma manera $\frac{\partial \Delta Q_j}{\partial \x_i}=\frac{\partial Q_j}{\partial \x_i}$, por lo tanto:
+
+$$\mathbf{-f(x)}= \begin{bmatrix} 
+-\mathbf{\Delta P} \\
+--\\
+-\mathbf{\Delta Q} \\
+\end{bmatrix} = \begin{bmatrix}
+\frac{\partial P_i}{\partial \delta_i} | V_j \frac{\partial P_i}{\partial V_j} \\
+--\\
+\frac{\partial Q_j}{\partial \delta_i} | V_j \frac{\partial Q_j}{\partial V_j} \\
+\end{bmatrix} \begin{bmatrix}
+\Delta \delta_i\\
+\frac{\Delta V_j}{V_j}
 \end{bmatrix}$$
 
 
