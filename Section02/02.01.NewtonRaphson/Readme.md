@@ -149,3 +149,7 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 |--------------------------|-----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
 
 [^1]:[Matriz Jacobiana](https://es.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/jacobian/v/the-jacobian-matrix)
+
+<div align="center">
+    <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="../../.icons/banner-pie-de-pagina.jpg" alt="Certificado" width="100%" border="0" /></a>
+</div>

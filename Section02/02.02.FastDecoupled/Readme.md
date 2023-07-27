@@ -20,3 +20,7 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 
 | [Anterior](../Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](../01.02.Classification/Readme.md) |
 |--------------------------|-----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
+
+<div align="center">
+    <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="../../.icons/banner-pie-de-pagina.jpg" alt="Certificado" width="100%" border="0" /></a>
+</div>
