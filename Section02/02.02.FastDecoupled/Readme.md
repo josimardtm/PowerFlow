@@ -12,9 +12,7 @@ Comúnmente, en un sistema de transmisión en régimen permanente existe una fue
 
 Los métodos desacoplados toman ventaja de esta condición para resolver dos problemas de flujo de potencia separados más simples.
 
-<div align="center">
-    <img src="Graph\acoplamiento.svg"/>
-</div>
+<img src="Graph\acoplamiento.svg"/>
 
 ### Simplificación del método de Newton-Raphson
 
@@ -49,9 +47,9 @@ M | L \\
 
 Con este sistema, se asume que:
 * $V_k \approx 1$ para todos los nodos, es decir que las tensiones no se alejan significativamente de su valor nominal.
-* $G_{km}<B_{km}$ para cualquier par de nodos, es decir que las líneas y transformadores tienen bajos niveles de componente resistivo.
+* $G_{km}-B_{km}$ para cualquier par de nodos, es decir que las líneas y transformadores tienen bajos niveles de componente resistivo.
 * $\cos (\delta_k-\delta_m) \approx 1$ y $\sin (\delta_k-\delta_m) \approx 0$, esto indica que la diferencia entre los ángulos no debe ser significativa.
-* $Q_k<B_kk$ la inyección de potencia reactiva es baja. 
+* $Q_k-B_kk$ la inyección de potencia reactiva es baja. 
 
 Con estos supuestos se obtiene que:
 * $[H]=[B_1]$, donde los elementos de la matriz $[B_1]$ son $-B_km=-Imag(Y_km)$
