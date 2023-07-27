@@ -7,7 +7,7 @@
 </div>
 
 # Power Flow
-Curso de flujo de potencia para desarrollo colaborativo con Github.
+Curso introductorio a flujos de potencia para desarrollo colaborativo con Github.
 
 Este curso es una introducción al problema de flujos de potencia y los métodos más empleados para su solución. En esta guía encontrará diferentes micro-contenidos, enlaces y ayudas para la comprensión del problema de flujos de potencia en sistemas trifásicos balanceados. 
 
