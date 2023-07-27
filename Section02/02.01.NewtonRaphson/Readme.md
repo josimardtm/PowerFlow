@@ -133,6 +133,8 @@ Luego de definir las ecuaciones que conforman el núcleo del método de Newton-R
     <br><img alt="Algoritmo para Newton-Raphson aplicado a Flujos de Potencia." src="Graph/nrflow.png" title="Algoritmo" width="70%"/>
 </div>
 
+### Ejemplo
+
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
