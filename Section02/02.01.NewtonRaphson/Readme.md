@@ -78,10 +78,13 @@ $$\mathbf{-f(x)}= \begin{bmatrix}
 --\\
 -\mathbf{\Delta Q} \\
 \end{bmatrix} = \begin{bmatrix}
-\frac{\partial Delta P_i}{\partial \delta_i} + \frac{\partial Delta P_i}{\partial V_j}\\
+\frac{\partial Delta P_i}{\partial \delta_i} \frac{\partial \Delta P_i}{\partial V_j} \\
 --\\
-\frac{\partial Delta Q_j}{\partial \delta_i} + \frac{\partial Delta Q_i}{\partial V_j}\\
-\end{bmatrix} $$
+\frac{\partial Delta Q_j}{\partial \delta_i} \frac{\partial \Delta Q_i}{\partial V_j} \Delta \V_j\\
+\end{bmatrix} \begin{bmatrix}
+\Delta \delta_i\\
+\Delta V_j
+\end{bmatrix}$$
 
 
 
