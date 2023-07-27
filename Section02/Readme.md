@@ -18,6 +18,9 @@ Esta sección le permitirá conocer la aplicación del método de Newton-Raphson
 | [Método Desacoplado Rápido](02.02.FastDecoupled/Readme.md) | Este método simplificado permite obtener una solución aproximada de los flujos de potencia.      |
 
 ##
+<div align="center">
+  <br><img alt="Obtener certificado" src="../.icons/banner-pie-de-pagina.jpg" width="100%" href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL?&" >
+</div>
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
