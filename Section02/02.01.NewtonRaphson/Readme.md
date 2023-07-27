@@ -103,7 +103,24 @@ $$\begin{bmatrix}
 \frac{\Delta V_j}{V_j}
 \end{bmatrix}$$
 
+Este sistema se puede escribir en forma resumida como:
 
+$$\begin{bmatrix} 
+\mathbf{\Delta P} \\
+--\\
+\mathbf{\Delta Q} \\
+\end{bmatrix} = \begin{bmatrix}
+H | N \\
+--\\
+M | L \\
+\end{bmatrix} \begin{bmatrix}
+\Delta \delta_i\\
+\frac{\Delta V_j}{V_j}
+\end{bmatrix}$$
+
+Donde las submatrices del Jacobiano se pueden calcular usando las siguientes ecuaciones:
+
+$$H_{km}=\frac{\partial P_k}{\partial\delta_m}=V_k V_m (G_{km} \sin \delta_{km}-B_{km} \cos\delta_{km})$$
 
 ### Control de versiones
 
