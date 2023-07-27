@@ -130,7 +130,7 @@ Donde las submatrices del Jacobiano se pueden calcular usando las siguientes ecu
 Luego de definir las ecuaciones que conforman el núcleo del método de Newton-Raphson aplicado a la solución de flujos de potencia. Podemos establecer un algoritmo general para resolver el problema. En la siguiente figura se muestra un diagrama de flujo que sirve de guía para la implementación del método.
 
 <div align="center">
-    <br><img alt="Algoritmo para Newton-Raphson aplicado a Flujos de Potencia." src="Graph/nrflow.png" title="Algoritmo" width="70%"/>
+    <br><img alt="Algoritmo para Newton-Raphson aplicado a Flujos de Potencia." src="Graph/nrflow.svg" title="Algoritmo" width="70%"/>
 </div>
 
 ### Ejemplo
@@ -139,7 +139,7 @@ Luego de definir las ecuaciones que conforman el núcleo del método de Newton-R
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   7   |
+| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   8   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 

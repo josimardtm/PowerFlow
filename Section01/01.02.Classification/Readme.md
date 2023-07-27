@@ -62,7 +62,7 @@ Antes de comenzar a aplicar métodos de solución para el problema de flujo de p
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.14 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   2   |
+| 2023.07.14 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   4   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
