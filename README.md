@@ -7,7 +7,7 @@ Curso de flujo de potencia para desarrollo colaborativo con Github.
 
 Este curso es una introducción al problema de flujos de potencia y los métodos más empleados para su solución. En esta guía encontrará diferentes micro-contenidos, enlaces y ayudas para la comprensión del problema de flujos de potencia en sistemas trifásicos balanceados. 
 
-<div align="center"><a href="https://youtu.be/ifVs5q77hVw" target="https://youtu.be/ifVs5q77hVw" alt="R.TeachingResearchGuide" width="480" border="0" /></a><sub><br>https://youtu.be/ifVs5q77hVw<br><br></sub></div>
+<div align="center"><a href="https://youtu.be/ifVs5q77hVw" target="_blank"><img src=".icons/introvideo.png" alt="VideoIntroductorio" width="480" border="0" /></a><sub><br>https://youtu.be/ifVs5q77hVw<br><br></sub></div>
 
 ## [Sección 1 - Formulación del problema de flujos de potencia](Section01/Readme.md)
 
