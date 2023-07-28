@@ -166,7 +166,7 @@ $$ [Y_{bus}]=\begin{bmatrix}
 -5+\mathrm{j}15 & -20+\mathrm{j}40 & 25-\mathrm{j}55 \\
 \end{bmatrix} $$
 
-Si los valores de voltaje para cada nodo son: $ \mathbf{V_1} = 1,0 \angle 0^{\circ}$, $ \mathbf{V_2} = 1,02 \angle 10^{\circ}$ y $\mathbf{V_3} = 1,02 \angle -5^{\circ}$
+Si los valores de voltaje para cada nodo son: $ \mathbf{V_1} = 1,0 \angle 0^{\circ} \text{pu}, $ $\mathbf{V_2} = 1,02 \angle 10^{\circ} \text{pu}$ y $\mathbf{V_3} = 1,02 \angle -5^{\circ} \text{pu}$
 
 Las potencias inyectadas se calculan como: 
 
