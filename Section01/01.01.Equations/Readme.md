@@ -144,17 +144,17 @@ Si se tienen valores conocidos para los voltajes en cada uno de los nodos, se pu
 
 Se calcula la matriz de admitancias:
 
-$$ Y_{11} = \frac{1}{{0.02 + \mathrm{j}0.04}} + \frac{1}{{0.02 + \mathrm{j}0.06}} = 15 - \mathrm{j}35  \text{pu} $$
+$$ Y_{11} = \frac{1}{{0,02 + \mathrm{j}0,04}} + \frac{1}{{0,02 + \mathrm{j}0,06}} = 15 - \mathrm{j}35  \text{pu} $$
 
-$$ Y_{22} = \frac{1}{{0.02 + \mathrm{j}0.04}} + \frac{1}{{0.01 + \mathrm{j}0.02}} = 30 - \mathrm{j}60  \text{pu} $$
+$$ Y_{22} = \frac{1}{{0,02 + \mathrm{j}0,04}} + \frac{1}{{0,01 + \mathrm{j}0,02}} = 30 - \mathrm{j}60  \text{pu} $$
 
-$$ Y_{33} = \frac{1}{{0.02 + \mathrm{j}0.06}} + \frac{1}{{0.01 + \mathrm{j}0.02}} = 25 - \mathrm{j}55  \text{pu} $$
+$$ Y_{33} = \frac{1}{{0,02 + \mathrm{j}0,06}} + \frac{1}{{0,01 + \mathrm{j}0,02}} = 25 - \mathrm{j}55  \text{pu} $$
 
-$$Y_{12}=Y_{21}= -\frac{1}{0.02 + \mathrm{j}0.04}=-10 + \mathrm{j} 20 \text{pu}$$
+$$Y_{12}=Y_{21}= -\frac{1}{0,02 + \mathrm{j} 0,04}=-10 + \mathrm{j} 20 \text{pu}$$
 
-$$Y_{13}=Y_{31}= -\frac{1}{0.02 + \mathrm{j} 0.06}=-5 + \mathrm{j} 15 \text{pu}$$
+$$Y_{13}=Y_{31}= -\frac{1}{0,02 + \mathrm{j} 0,06}=-5 + \mathrm{j} 15 \text{pu}$$
 
-$$Y_{23}=Y_{32}= -\frac{2}{0.02 + \mathrm{j}0.04}=-20 + \mathrm{j} 40 \text{pu}$$ 
+$$Y_{23}=Y_{32}= -\frac{2}{0,02 + \mathrm{j} 0,04}=-20 + \mathrm{j} 40 \text{pu}$$ 
 
 > En el caso de las líneas que conectan los nodos 2 y 3, debemos considerar que se conectan en paralelo.
 
@@ -166,6 +166,17 @@ $$ [Y_{bus}]=\begin{bmatrix}
 -5+\mathrm{j}15 & -20+\mathrm{j}40 & 25-\mathrm{j}55 \\
 \end{bmatrix} $$
 
+Si los valores de voltaje para cada nodo son: $ \mathbf{V_1} = 1,0 \angle 0^{\circ}$, $ \mathbf{V_2} = 1,02 \angle 10^{\circ}$ y $ \mathbf{V_3} = 1,02 \angle -5^{\circ}$.
+
+Las potencias inyectadas se calculan como: 
+
+$$ S_1 = \mathbf{V_1} \mathbf{I_1}^* = \mathbf{V_1} \left[ \mathbf{V_1}Y_{11} + \mathbf{V_2}Y_{12} + \mathbf{V_3}Y_{13} \right]^*$$
+
+$$ S_2 = \mathbf{V_2} \mathbf{I_2}^* = \mathbf{V_2} \left[\mathbf{V_1}Y_{21} + \mathbf{V_2}Y_{22} + \mathbf{V_3}Y_{23} \right]^*$$
+
+$$ S_2 = \mathbf{V_3} \mathbf{I_3}^* = \mathbf{V_3} \left[\mathbf{V_1}Y_{31} + \mathbf{V_2}Y_{32} + \mathbf{V_3}Y_{33} \right]^*$$
+
+
 [Ejemplo](EjemploEcuaciones.ipynb)
 
 
@@ -174,7 +185,7 @@ $$ [Y_{bus}]=\begin{bmatrix}
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.06.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   5   |
+| 2023.07.28 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   6   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
