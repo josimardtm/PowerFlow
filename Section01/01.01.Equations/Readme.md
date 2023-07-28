@@ -156,7 +156,7 @@ $$Y_{13}=Y_{31}= -\frac{1}{0,02 + \mathrm{j} 0,06}=-5 + \mathrm{j} 15 \text{pu}$
 
 $$Y_{23}=Y_{32}= -\frac{2}{0,02 + \mathrm{j} 0,04}=-20 + \mathrm{j} 40 \text{pu}$$ 
 
-> En el caso de las líneas que conectan los nodos 2 y 3, debemos considerar que se conectan en paralelo.
+> En el caso de las líneas que conectan los nodos 2 y 3 se debe tener en cuenta que se conectan en paralelo.
 
 La matriz de admitancia del sistema es la siguiente:
 
@@ -166,7 +166,7 @@ $$ [Y_{bus}]=\begin{bmatrix}
 -5+\mathrm{j}15 & -20+\mathrm{j}40 & 25-\mathrm{j}55 \\
 \end{bmatrix} $$
 
-Si los valores de voltaje para cada nodo son: $ \mathbf{V_1} = 1,0 \angle 0^{\circ}$, $ \mathbf{V_2} = 1,02 \angle 10^{\circ}$ y $ \mathbf{V_3} = 1,02 \angle -5^{\circ}$.
+Si los valores de voltaje para cada nodo son: $ \mathbf{V_1} = 1,0 \angle 0^{\circ}$, $ \mathbf{V_2} = 1,02 \angle 10^{\circ}$ y $\mathbf{V_3} = 1,02 \angle -5^{\circ}$
 
 Las potencias inyectadas se calculan como: 
 
