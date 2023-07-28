@@ -188,7 +188,10 @@ En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embar
 
 En el siguiente Jupyter Notebook, encontrarás un código sencillo en Python para calcular las potencias inyectadas.
 
-<img src="..\.icons\py.png" width="40"/> [Ejemplo](EjemploEcuaciones.ipynb)
+<img src="..\.icons\py.png" width="40"/> 
+[Ejemplo](EjemploEcuaciones.ipynb)
+
+[![Ejemplo](../../.icons/py.png)](EjemploEcuaciones.ipynb)
 
 ### Control de versiones
 
