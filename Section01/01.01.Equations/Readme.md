@@ -188,13 +188,13 @@ En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embar
 
 En el siguiente Jupyter Notebook, encontrarás un código sencillo en Python para calcular las potencias inyectadas.
 
-<href="EjemploEcuaciones.ipynb" target="_blank"><img src="../../.icons/py.png" alt="Código de ejemplo" width="50" border="0" />
+[<img src="C:\PowerFlow\.icons\py.png" title="Ejemplo" width="40"/>](EjemploEcuaciones.ipynb)
 
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.28 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   6   |
+| 2023.07.28 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   7   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
