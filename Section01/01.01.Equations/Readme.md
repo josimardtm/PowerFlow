@@ -186,7 +186,7 @@ $$ S_3 = $$
 
 En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embargo, es más útil utilizar herramientas computacionales para automatizar los cálculos para muchos nodos. 
 
-[<img src="C:\PowerFlow\.icons\py.png" width="20px"/>](EjemploEcuaciones.ipynb) En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para calcular las potencias inyectadas.
+[<img src="..\..\.icons\py.png" width="20"/>](EjemploEcuaciones.ipynb) En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para calcular las potencias inyectadas.
 
 
 ### Control de versiones
