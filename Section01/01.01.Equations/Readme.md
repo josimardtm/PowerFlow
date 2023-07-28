@@ -174,12 +174,21 @@ $$ S_1 = \mathbf{V_1} \mathbf{I_1}^* = \mathbf{V_1} \left[ \mathbf{V_1}Y_{11} + 
 
 $$ S_2 = \mathbf{V_2} \mathbf{I_2}^* = \mathbf{V_2} \left[\mathbf{V_1}Y_{21} + \mathbf{V_2}Y_{22} + \mathbf{V_3}Y_{23} \right]^*$$
 
-$$ S_2 = \mathbf{V_3} \mathbf{I_3}^* = \mathbf{V_3} \left[\mathbf{V_1}Y_{31} + \mathbf{V_2}Y_{32} + \mathbf{V_3}Y_{33} \right]^*$$
+$$ S_3 = \mathbf{V_3} \mathbf{I_3}^* = \mathbf{V_3} \left[\mathbf{V_1}Y_{31} + \mathbf{V_2}Y_{32} + \mathbf{V_3}Y_{33} \right]^*$$
 
+Los resultados para las potencias inyectadas son:
 
-[Ejemplo](EjemploEcuaciones.ipynb)
+$$ S_1 = $$
 
+$$ S_2 = $$
 
+$$ S_3 = $$
+
+En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embargo, es más útil utilizar herramientas computacionales para automzatizar los cálculos para muchos nodos. En el siguiente Jupyter Notebook, encontrarás un código sencillo en Python para calcular las potencias inyectadas.
+
+<div align="center">
+    <a href="EjemploEcuaciones.ipynb" target="_blank"><img src="../../.icons/jnb.jpg" alt="Código de ejemplo" width="100%" border="0" /></a>
+</div>
 
 ### Control de versiones
 
