@@ -130,7 +130,39 @@ La solución del problema de flujo de potencia usando el método de Newton-Raphs
 
 Este conjunto de ecuaciones no lineales permite obtener la solución para las variables desconocidas de cada uno de los nodos. Las variables a calcular dependen del [tipo de nodo](../01.02.Classification/Readme.md) en estudio.
 
-### [Ejemplo](EjemploEcuaciones.ipynb)
+### Ejemplo
+
+Se tiene una red de potencia de tres nodos cuyos datos están dados en valores por unidad calculados con base de potencia de $100 MVA$ y tensión igual a $100k V$.
+
+En la siguiente figura se muestra el diagrama unifilar de la red, con las impedancias de las líneas de transmisión.
+
+<img src="Graph\unif-ejemplo.svg" title="Diagrama unifilar ejemplo 1" width="100%"/>
+
+Si se tienen valores conocidos para los voltajes en cada uno de los nodos, se pueden calcular las potencias activa y reactiva inyectadas. Para ello, inicialmente se debe determinar la matriz de admitancias del sistema.
+
+Se calcula la matriz de admitancias:
+
+$$ Y_{11} = \frac{1}{{0.02 + \mathrm{j}0.04}} + \frac{1}{{0.02 + \mathrm{j}0.06}} = 15 - \mathrm{j}35  \text{pu} $$
+$$ Y_{22} = \frac{1}{{0.02 + \mathrm{j}0.04}} + \frac{1}{{0.01 + \mathrm{j}0.02}} = 30 - \mathrm{j}60  \text{pu} $$
+$$ Y_{33} = \frac{1}{{0.02 + \mathrm{j}0.06}} + \frac{1}{{0.01 + \mathrm{j}0.02}} = 25 - \mathrm{j}55  \text{pu} $$
+
+$Y_{12}=Y_{21}= -\frac{1}{0.02 + j 0.04}=-10 + j20 pu$
+$Y_{13}=Y_{31}= -\frac{1}{0.02 + j 0.06}=-5 + j15 pu$
+$Y_{23}=Y_{32}= -\frac{2}{0.02 + j 0.04}=-20 + j40 pu$ 
+
+En el caso de las líneas que conectan los nodos 2 y 3, debemos considerar que se conectan en paralelo.
+
+La matriz de admitancia del sistema es la siguiente:
+
+$$ [Y_{bus}]=\begin{bmatrix}
+15-\mathrm{j}35 & -10+\mathrm{j}20 & -5+\mathrm{j}15 \\
+-10+\mathrm{j}20 & 30-\mathrm{j}60 & -20+\mathrm{j}40 \\
+-5+\mathrm{j}15 & -20+\mathrm{j}40 & 25-\mathrm{j}55 \\
+\end{bmatrix} $$
+
+[Ejemplo](EjemploEcuaciones.ipynb)
+
+
 
 ### Control de versiones
 
