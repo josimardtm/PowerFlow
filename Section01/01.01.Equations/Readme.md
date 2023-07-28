@@ -7,7 +7,7 @@ Keywords: `Equations` `Power flow` `Formulation`
 * Lectura de referencias a pie de página
 * [Admitancia](https://es.wikipedia.org/wiki/Admitancia)
 * [Matriz de admitancias](https://es.wikipedia.org/wiki/Admitancia)
-* Valores por unidad
+* [Valores por unidad](https://es.wikipedia.org/wiki/Sistema_por_unidad)
 
 ### Modelo balanceado en estado estacionario de un sistema de potencia
 
@@ -30,7 +30,7 @@ Las líneas de transmisión se representan por un equivalente $\pi$ balanceado. 
 
 Todos los valores se representan en el sistema por unidad [^1]. 
 
-Adicionalmente, se debe conocer la matriz de admitancias del sistema, que se obtiene de los datos de las líneas de transmisión y transformadores. Esta matriz cuadrada tiene tantas filas o columnas como nodos hay en el sistema.
+Adicionalmente, se debe conocer la matriz de admitancias del sistema [^2], que se obtiene de los datos de las líneas de transmisión y transformadores. Esta matriz cuadrada tiene tantas filas o columnas como nodos hay en el sistema.
 * Cantidad de nodos $n$
 * Matriz de admitancias de nodos $[Y_{bus}]$
 * Los elementos de la matriz de admitancias son: $Y_{kk}=$ suma de las admitancias conectadas al nodo $k$ y $Y_{km}=$ -(suma de los elementos conectados entre los buses $k$ y $m$ con $k \ne m$)
@@ -188,6 +188,8 @@ En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embar
 
 [<img src="..\..\.icons\py.png" width="20"/>](EjemploEcuaciones.ipynb) En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para calcular las potencias inyectadas.
 
+[^1]:[Valores por unidad](https://es.wikipedia.org/wiki/Sistema_por_unidad)
+[^2]:[Matriz de admitacias](https://es.wikipedia.org/wiki/Admitancia)
 
 ### Control de versiones
 
@@ -202,7 +204,7 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 | [Anterior](../Readme.md) | [:house: Inicio](../../README.md) | [:beginner: Ayuda / Colabora](https://github.com/josimardtm/PowerFlow/discussions) | [Siguiente](../01.02.Classification/Readme.md) |
 |--------------------------|-----------------------------------|------------------------------------------------------------------------------------|------------------------------------------------|
 
-[^1]:[Sistema de valores por unidad](https://es.wikipedia.org/wiki/Sistema_por_unidad)
+
 
 <div align="center">
     <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="../../.icons/banner-pie-de-pagina.jpg" alt="Certificado" width="100%" border="0" /></a>
