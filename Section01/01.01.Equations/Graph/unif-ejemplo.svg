@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="202.96852mm"
+   height="144.59479mm"
+   viewBox="0 0 202.96852 144.59479"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="unif-ejemplo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.69130191"
+     inkscape:cx="387.67432"
+     inkscape:cy="402.13978"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.2361014,-42.13946)">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-22.999635,-26.916789)"
+       id="g441">
+      <path
+         d="m 228.5,308 c 0,-25.129 20.595,-45.5 46,-45.5 25.405,0 46,20.371 46,45.5 0,25.129 -20.595,45.5 -46,45.5 -25.405,0 -46,-20.371 -46,-45.5 z"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path335" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="40px"
+         transform="translate(258.554,322)"
+         id="text337">G</text>
+      <path
+         d="m 651.5,308 c 0,-25.129 20.595,-45.5 46,-45.5 25.405,0 46,20.371 46,45.5 0,25.129 -20.595,45.5 -46,45.5 -25.405,0 -46,-20.371 -46,-45.5 z"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path339" />
+      <text
+         font-family="Arial, Arial_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="40px"
+         transform="translate(681.538,322)"
+         id="text341">G</text>
+      <path
+         d="m 507,743.5 v 54 h -3 v -54 z m 4.5,52 -6,12 -6,-12 z"
+         id="path343" />
+      <path
+         d="M 188.5,396.5 H 354.9"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path345" />
+      <path
+         d="M 600.5,391.5 H 766.9"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path347" />
+      <path
+         d="M 420.5,742.5 H 586.9"
+         stroke="#000000"
+         stroke-width="9"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path349" />
+      <path
+         d="m 274.5,353.5 v 38.025"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path351" />
+      <path
+         d="M 0,0 1.5748e-4,38.0252"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         transform="matrix(-1,0,0,1,697.5,353.5)"
+         id="path353" />
+      <path
+         d="m 322.299,396.1 c -0.266,22.133 -0.533,44.267 -0.799,66.4 l 318,-1.6 -1.598,-70.4"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path355" />
+      <path
+         d="m 223.297,397.5 c -0.265,32.552 -0.531,65.104 -0.797,97.657 L 453.703,673.66 c 0.265,22.947 0.531,45.893 0.797,68.84"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path357" />
+      <path
+         d="m 687.897,392.5 1.603,100.8 -186,180 c 0.267,22.4 0.535,44.8 0.802,67.2"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path359" />
+      <path
+         d="m 738.5,390.5 v 103.435 l -183.197,180.41 c -0.267,22.718 -0.535,45.437 -0.803,68.155"
+         stroke="#000000"
+         stroke-width="3"
+         stroke-miterlimit="8"
+         fill="none"
+         fill-rule="evenodd"
+         id="path361" />
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(93.0276,400)"
+         id="text363">Nodo 1</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(781.225,399)"
+         id="text365">Nodo 2</text>
+      <text
+         font-family="Calibri, Calibri_MSFontService, sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(601.176,750)"
+         id="text367">Nodo 3</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(400.653,441)"
+         id="text369">0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(416.153,441)"
+         id="text371">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(421.903,441)"
+         id="text373">02</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(459.123,441)"
+         id="text375">+</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(486.343,441)"
+         id="text377">𝑗0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(511.843,441)"
+         id="text379">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(517.593,441)"
+         id="text381">04</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(548.593,441)"
+         id="text383"></text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="translate(554.843,441)"
+         id="text385">𝑝𝑢</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-681.76216,608.68621)"
+         id="text387">0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-688.86679,631.29007)"
+         id="text389">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-692.47562,640.00742)"
+         id="text391">02</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-710.10821,694.47876)"
+         id="text393">+</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-724.34401,734.77205)"
+         id="text395">𝑗0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-736.31738,772.05543)"
+         id="text397">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-739.92622,780.77278)"
+         id="text399">06</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-755.60793,826.48049)"
+         id="text401"></text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(37.511727,-757.5468,835.27946)"
+         id="text403">𝑝𝑢</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1037.3965,-334.36885)"
+         id="text405">0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1029.4461,-353.45908)"
+         id="text407">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1026.5963,-360.50222)"
+         id="text409">02</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1008.0138,-406.1379)"
+         id="text411">+</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,994.44235,-439.50697)"
+         id="text413">𝑗0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,981.48186,-470.86628)"
+         id="text415">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,978.63159,-477.90819)"
+         id="text417">04</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,962.73182,-516.0911)"
+         id="text419"></text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,960.06055,-523.57208)"
+         id="text421">𝑝𝑢</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1120.8789,-405.82522)"
+         id="text423">0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1112.929,-424.91668)"
+         id="text425">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1110.0787,-431.95859)"
+         id="text427">02</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1091.4967,-477.59551)"
+         id="text429">+</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1077.9253,-510.96457)"
+         id="text431">𝑗0</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1064.9648,-542.32388)"
+         id="text433">,</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1062.1145,-549.36579)"
+         id="text435">04</text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1047.4412,-587.0487)"
+         id="text437"></text>
+      <text
+         font-family="'Cambria Math', 'Cambria Math_MSFontService', sans-serif"
+         font-weight="400"
+         font-size="28px"
+         transform="rotate(-44.35974,1043.5434,-595.02968)"
+         id="text439">𝑝𝑢</text>
+    </g>
+  </g>
+</svg>
