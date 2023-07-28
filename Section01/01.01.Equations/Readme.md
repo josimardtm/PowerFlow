@@ -184,11 +184,11 @@ $$ S_2 = $$
 
 $$ S_3 = $$
 
-En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embargo, es más útil utilizar herramientas computacionales para automzatizar los cálculos para muchos nodos. En el siguiente Jupyter Notebook, encontrarás un código sencillo en Python para calcular las potencias inyectadas.
+En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embargo, es más útil utilizar herramientas computacionales para automatizar los cálculos para muchos nodos. 
 
-<div align="center">
-    <a href="EjemploEcuaciones.ipynb" target="_blank"><img src="../../.icons/jnb.jpg" alt="Código de ejemplo" width="100%" border="0" /></a>
-</div>
+En el siguiente Jupyter Notebook, encontrarás un código sencillo en Python para calcular las potencias inyectadas.
+
+<href="EjemploEcuaciones.ipynb" target="_blank"><img src="../../.icons/py.png" alt="Código de ejemplo" width="50" border="0" />
 
 ### Control de versiones
 
