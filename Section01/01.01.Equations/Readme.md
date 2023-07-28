@@ -178,11 +178,11 @@ $$ S_3 = \mathbf{V_3} \mathbf{I_3}^* = \mathbf{V_3} \left[\mathbf{V_1}Y_{31} + \
 
 Los resultados para las potencias inyectadas son:
 
-$$ S_1 = $$
+$$ S_1 = -2,33  + \mathrm{j} 0,995 \text{pu} $$
 
-$$ S_2 = $$
+$$ S_2 = 15,38 - \mathrm{j} 5,02 \text{pu} $$
 
-$$ S_3 = $$
+$$ S_3 = -11,27 + \mathrm{j} 7,61 \text{pu} $$
 
 En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embargo, es más útil utilizar herramientas computacionales para automatizar los cálculos para muchos nodos. 
 
