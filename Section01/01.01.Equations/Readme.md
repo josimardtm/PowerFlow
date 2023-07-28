@@ -186,10 +186,7 @@ $$ S_3 = $$
 
 En este caso, como son pocos nodos se pueden calcular de forma manual. Sin embargo, es más útil utilizar herramientas computacionales para automatizar los cálculos para muchos nodos. 
 
-[![Ejemplo](../../.icons/py.png)](EjemploEcuaciones.ipynb) 
-
-En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para calcular las potencias inyectadas.
-
+[![Ejemplo](../../.icons/py.png)](EjemploEcuaciones.ipynb) En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para calcular las potencias inyectadas.
 
 
 ### Control de versiones
