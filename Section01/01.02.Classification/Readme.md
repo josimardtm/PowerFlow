@@ -39,7 +39,7 @@ Las variables a calcular en estos nodos son el ángulo de la tensión y la poten
     <br><img alt="Nodos de generación." src="Graph/nodoPV.svg" title="Nodos de generación" width="60%"/>
 </div>
 
-## Nodo de referencia, de compensación o *"Slack"*
+### Nodo de referencia, de compensación o *"Slack"*
 
 Para poder solucionar el problema de flujo de potencia, se requiere un nodo que se toma como referencia del ángulo de la tensión para los demás nodos.
 
@@ -55,7 +55,6 @@ Se asume que la magnitud de la tensión en el nodo de referencia es conocida y e
 ### Tabla de datos de los nodos
 
 Antes de comenzar a aplicar métodos de solución para el problema de flujo de potencia, es útil organizar la información de todos los nodos del sistema con su clasificación y sus variables conocidas.
-
 
 
 ### Control de versiones
