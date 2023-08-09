@@ -39,7 +39,7 @@ Las variables a calcular en estos nodos son el ángulo de la tensión y la poten
     <br><img alt="Nodos de generación." src="Graph/nodoPV.svg" title="Nodos de generación" width="60%"/>
 </div>
 
-## Nodo de referencia, de compensación o *"Slack"*
+### Nodo de referencia, de compensación o *"Slack"*
 
 Para poder solucionar el problema de flujo de potencia, se requiere un nodo que se toma como referencia del ángulo de la tensión para los demás nodos.
 
@@ -73,7 +73,6 @@ La tabla de datos debe incluir al menos los datos de los nodos y los datos de lo
 | X001          | N001       | N002       | 0,02               | 0,04              |                        |                  |   |   |   |
 | X002          | N001       | N003       | 0,02               | 0,06              |                        |                  |   |   |   |
 | X003          | N002       | N003       | 0,01               | 0,02              |                        |                  |   |   |   |
-
 
 ### Control de versiones
 
