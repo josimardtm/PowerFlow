@@ -56,6 +56,23 @@ Se asume que la magnitud de la tensión en el nodo de referencia es conocida y e
 
 Antes de comenzar a aplicar métodos de solución para el problema de flujo de potencia, es útil organizar la información de todos los nodos del sistema con su clasificación y sus variables conocidas.
 
+La tabla de datos debe incluir al menos los datos de los nodos y los datos de los enlaces (Líneas de transmisión y transformadores).
+
+*Ejemplo de tabla de datos de nodos*
+
+| Identificador | Tipo de nodo | Voltaje nominal (kV) | Magnitud inicial (p.u.) | Ángulo inicial (deg) | Límite mínimo | Límite máximo |
+|---------------|--------------|----------------------|-------------------------|----------------------|---------------|---------------|
+| N001          | Referencia   | 110                  | 1.01                    | 0.00                 | 0.9           | 1.1           |
+| N002          | Carga        | 110                  | 1.00                    | 10.00                | 0.9           | 1.1           |
+| N003          | Generación   | 110                  | 1.00                    | 2.00                 | 0.9           | 1.1           |
+
+*Ejemplo de tabla de datos de enlaces*
+
+| Identificador | Nodo desde | Nodo hacia | Resistencia (p.u.) | Reactancia (p.u.) | Reactancia en paralelo | Corriente máxima |   |   |   |
+|---------------|------------|------------|--------------------|-------------------|------------------------|------------------|---|---|---|
+| X001          | N001       | N002       | 0,02               | 0,04              |                        |                  |   |   |   |
+| X002          | N001       | N003       | 0,02               | 0,06              |                        |                  |   |   |   |
+| X003          | N002       | N003       | 0,01               | 0,02              |                        |                  |   |   |   |
 
 
 ### Control de versiones
