@@ -52,7 +52,7 @@ Se asume que la magnitud de la tensión en el nodo de referencia es conocida y e
     <br><img alt="Nodo de referencia" src="Graph/nodoRef.svg" title="Nodo de referencia" width="60%"/>
 </div>
 
-### Tabla de datos de los nodos
+### Tabla de datos del sistema de potencia
 
 Antes de comenzar a aplicar métodos de solución para el problema de flujo de potencia, es útil organizar la información de todos los nodos del sistema con su clasificación y sus variables conocidas.
 
@@ -78,7 +78,7 @@ La tabla de datos debe incluir al menos los datos de los nodos y los datos de lo
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.14 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   4   |
+| 2023.07.14 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   5   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
