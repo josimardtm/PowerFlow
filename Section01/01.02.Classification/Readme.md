@@ -60,11 +60,11 @@ La tabla de datos debe incluir al menos los datos de los nodos y los datos de lo
 
 *Ejemplo de tabla de datos de nodos*
 
-| Identificador | Tipo de nodo | Voltaje nominal (kV) | Magnitud inicial (p.u.) | Ángulo inicial (deg) | Límite mínimo | Límite máximo |
-|---------------|--------------|----------------------|-------------------------|----------------------|---------------|---------------|
-| N001          | Referencia   | 110                  | 1.01                    | 0.00                 | 0.9           | 1.1           |
-| N002          | Carga        | 110                  | 1.00                    | 10.00                | 0.9           | 1.1           |
-| N003          | Generación   | 110                  | 1.00                    | 2.00                 | 0.9           | 1.1           |
+| Identificador | Tipo de nodo | Voltaje nominal (kV) | Magnitud de voltaje (p.u.) | Ángulo de voltaje (deg) | Potencia activa (MW) | Potencia Reactiva (MVAr) |
+|---------------|--------------|----------------------|----------------------------|-------------------------|----------------------|--------------------------|
+| N001          | Referencia   | 110                  | 1.01                       | 0.00                    | --                   | --                       |
+| N002          | Carga        | 110                  | 1.00                       | 10.00                   | 60                   | 30                       |
+| N003          | Generación   | 110                  | 1.00                       | 2.00                    | -50                  | -10                      |
 
 *Ejemplo de tabla de datos de enlaces*
 
