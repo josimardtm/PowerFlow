@@ -68,11 +68,11 @@ La tabla de datos debe incluir al menos los datos de los nodos y los datos de lo
 
 *Ejemplo de tabla de datos de enlaces*
 
-| Identificador | Nodo desde | Nodo hacia | Resistencia (p.u.) | Reactancia (p.u.) | Reactancia en paralelo | Corriente máxima |   |   |   |
-|---------------|------------|------------|--------------------|-------------------|------------------------|------------------|---|---|---|
-| X001          | N001       | N002       | 0,02               | 0,04              |                        |                  |   |   |   |
-| X002          | N001       | N003       | 0,02               | 0,06              |                        |                  |   |   |   |
-| X003          | N002       | N003       | 0,01               | 0,02              |                        |                  |   |   |   |
+| Identificador | Nodo desde | Nodo hacia | Resistencia (p.u.) | Reactancia (p.u.) | Admitancia en paralelo (p.u.) | $I_{max}$ (A) | 
+|---------------|------------|------------|--------------------|-------------------|-------------------------------|---------------|
+| X001          | N001       | N002       | 0,02               | 0,04              | 100                           | 150           |
+| X002          | N001       | N003       | 0,02               | 0,06              | 0                             | 150           |
+| X003          | N002       | N003       | 0,01               | 0,02              | 0                             | 200           |
 
 ### Control de versiones
 
