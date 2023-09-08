@@ -78,11 +78,38 @@ $$ \mathbf{[\Delta P]} = \mathbf{[B_1]} \mathbf{[\Delta \delta]} $$
 
 $$ \mathbf{[\Delta Q]} = \mathbf{[B_2]} \mathbf{[\frac{\Delta V}{V}]} $$
 
+### Ejemplo
+
+Para ejemplificar la aplicación del método desacoplado rápido, emplearemos el mismo ejemplo utilizado para el método de Newton Raphson.
+
+<div align="center">
+        <img src="Graph\unif-ejemplo1.svg" title="Diagrama unifilar ejemplo 1" width="50%"/>
+</div>
+
+*Tabla de datos de nodos:*
+
+| Nodos | Tipo de nodo | Tensión nominal (kV) | Potencia activa inyectada (MW) | Potencia reactiva inyectada (MVAr) | Magnitud de voltaje (p.u.) | Ángulo de voltaje (p.u.) |
+|-------|--------------|----------------------|--------------------------------|------------------------------------|----------------------------|--------------------------|
+| 1     | Referencia   | 100                  | --                             | --                                 | 1.02                       | 0.0                      |
+| 2     | Generación   | 100                  | 50                             | --                                 | 1.02                       | 0.0                      |
+| 3     | Carga        | 100                  | -100                           | -60                                | 1.02                       | 0.0                      |  
+
+*Tabla de datos de los enlaces:*
+
+| Identificador | Nodo desde | Nodo hacia | Resistencia (p.u.) | Reactancia (p.u.) | Admitancia en paralelo (p.u.) | $I_{max}$ (A) | 
+|---------------|------------|------------|--------------------|-------------------|-------------------------------|---------------|
+| 1             | 1          | 2          | 0,02               | 0,04              | 0                             | 150           |
+| 2             | 1          | 3          | 0,02               | 0,06              | 0                             | 150           |
+| 3             | 2          | 3          | 0,01               | 0,02              | 0                             | 200           |
+
+
+[<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploNR.ipynb), encontrarás un código sencillo en Python para resolver el ejemplo usando la formulación del método desacoplado rápido.
+
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   4   |
+| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   5   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 

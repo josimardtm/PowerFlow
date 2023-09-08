@@ -69,7 +69,7 @@ $$ \mathbf{x}= \begin{bmatrix}
 
 Donde $\delta_i$ son los ángulos de los nodos de generación y de carga, mientras $V_j$ son las magnitudes de voltaje de los nodos de carga. Es decir, las variables desconocidas de los voltajes de todos los nodos.
 
-Entonces, las funciones que se resuelven buscan lograr que la diferencia entre los valores de potencia conocidos en los nodos sea prácticamente igual a la potencia calculada en los nodos. Estas diferencias deben ser menores a una tolerancia que se representa por $\varepsilon$ . Comúnmente, esta tolerancia es muy pequeña, por debajo de $10^{-4}$.
+Entonces, las funciones que se resuelven buscan lograr que la diferencia entre los valores de potencia conocidos en los nodos sea prácticamente igual a la potencia calculada en los nodos. Estas diferencias deben ser menores a una tolerancia que se representa por $\varepsilon$. Comúnmente, esta tolerancia es muy pequeña, por debajo de $10^{-4}$.
 
 Aplicando el método de Newton-Raphson, tenemos que $-\mathbf{f(x)}=[J]\mathbf{\Delta x}$, pero con la definición dada para $\mathbf{f(x)}$:
 
@@ -137,7 +137,7 @@ Luego de definir las ecuaciones que conforman el núcleo del método de Newton-R
 
 Se tiene una red de potencia de tres nodos cuyos datos están dados en valores por unidad calculados con base de potencia de $100 MVA$ y tensión igual a $100k V$.
 
-En la siguiente figura se muestra el diagrama unifilar de la red, con las impedancias de las líneas de transmisión.
+En la siguiente figura se muestra el diagrama unifilar de la red, con las impedancias de las líneas de transmisión y las tablas de los datos de nodos y enlaces 
 
 <div align="center">
         <img src="Graph\unif-ejemplo1.svg" title="Diagrama unifilar ejemplo 1" width="50%"/>
@@ -165,7 +165,7 @@ En la siguiente figura se muestra el diagrama unifilar de la red, con las impeda
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   8   |
+| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |  10   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
