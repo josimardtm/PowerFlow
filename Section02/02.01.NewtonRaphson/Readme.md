@@ -159,7 +159,7 @@ En la siguiente figura se muestra el diagrama unifilar de la red, con las impeda
 | 2             | 1          | 3          | 0,02               | 0,06              | 0                             | 150           |
 | 3             | 2          | 3          | 0,01               | 0,02              | 0                             | 200           |
 
-[<img src="..\..\.icons\py.png" width="20"/>](EjemploEcuaciones.ipynb) En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para resolver el ejemplo usando la formulación del método de Newton-Raphson.
+[<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para resolver el ejemplo usando la formulación del método de Newton-Raphson.
 
 ### Control de versiones
 
