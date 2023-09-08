@@ -140,16 +140,16 @@ Se tiene una red de potencia de tres nodos cuyos datos están dados en valores p
 En la siguiente figura se muestra el diagrama unifilar de la red, con las impedancias de las líneas de transmisión.
 
 <div align="center">
-        <img src="Graph\unif-ejemplo.svg" title="Diagrama unifilar ejemplo 1" width="50%"/>
+        <img src="Graph\unif-ejemplo1.svg" title="Diagrama unifilar ejemplo 1" width="50%"/>
 </div>
 
 *Tabla de datos de nodos:*
 
-| Nodos | Tensión nominal (kV) | Potencia activa inyectada (MW) | Potencia reactiva inyectada (MVAr) | Magnitud de voltaje (p.u.) | Ángulo de voltaje (p.u.) |
-|-------|----------------------|--------------------------------|------------------------------------|----------------------------|--------------------------|
-| 1     | 100                  | --                             | --                                 | 1.02                       | 0.0                      |
-| 2     | 100                  | 50                             | --                                 | 1.02                       | 0.0                      |
-| 3     | 100                  | -100                           | -60                                | 1.02                       | 0.0                      |  
+| Nodos | Tipo de nodo | Tensión nominal (kV) | Potencia activa inyectada (MW) | Potencia reactiva inyectada (MVAr) | Magnitud de voltaje (p.u.) | Ángulo de voltaje (p.u.) |
+|-------|--------------|----------------------|--------------------------------|------------------------------------|----------------------------|--------------------------|
+| 1     | Referencia   | 100                  | --                             | --                                 | 1.02                       | 0.0                      |
+| 2     | Generación   | 100                  | 50                             | --                                 | 1.02                       | 0.0                      |
+| 3     | Carga        | 100                  | -100                           | -60                                | 1.02                       | 0.0                      |  
 
 *Tabla de datos de los enlaces:*
 
@@ -159,6 +159,7 @@ En la siguiente figura se muestra el diagrama unifilar de la red, con las impeda
 | 2             | 1          | 3          | 0,02               | 0,06              | 0                             | 150           |
 | 3             | 2          | 3          | 0,01               | 0,02              | 0                             | 200           |
 
+[<img src="..\..\.icons\py.png" width="20"/>](EjemploEcuaciones.ipynb) En este [enlace](EjemploEcuaciones.ipynb), encontrarás un código sencillo en Python para resolver el ejemplo usando la formulación del método de Newton-Raphson.
 
 ### Control de versiones
 
