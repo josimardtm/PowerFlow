@@ -94,22 +94,23 @@ Para ejemplificar la aplicación del método desacoplado rápido, emplearemos el
 | 2     | Generación   | 100                  | 50                             | --                                 | 1.02                       | 0.0                      |
 | 3     | Carga        | 100                  | -100                           | -60                                | 1.02                       | 0.0                      |  
 
-*Tabla de datos de los enlaces:*
+*Resultados*
 
-| Identificador | Nodo desde | Nodo hacia | Resistencia (p.u.) | Reactancia (p.u.) | Admitancia en paralelo (p.u.) | $I_{max}$ (A) | 
-|---------------|------------|------------|--------------------|-------------------|-------------------------------|---------------|
-| 1             | 1          | 2          | 0,02               | 0,04              | 0                             | 150           |
-| 2             | 1          | 3          | 0,02               | 0,06              | 0                             | 150           |
-| 3             | 2          | 3          | 0,01               | 0,02              | 0                             | 200           |
+Obtenidos en 15 iteraciones del algoritmo del método desacoplado rápido a la solución de flujos de potencia.
 
+| Nodos | Magnitud de Voltaje (p.u) | Ángulo de Voltaje (rad) | Potencia activa inyectada (MW) | Potencia reactiva inyectada (MVAr) |
+|-------|---------------------------|-------------------------|--------------------------------|------------------------------------|
+| 1     | 1,02                      | 0                       | 50,9772                        | 7,09566                            |
+| 2     | 1,02                      | -0,00822                | 50                             | 55,1263                            |
+| 3     | 1.00434                   | -0,01678                | -100                           | -60                                |
 
-[<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploNR.ipynb), encontrarás un código sencillo en Python para resolver el ejemplo usando la formulación del método desacoplado rápido.
+[<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploNR.ipynb), encontrarás un código en Python para resolver el ejemplo usando la formulación del método desacoplado rápido.
 
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   5   |
+| 2023.09.14 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |   6   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 

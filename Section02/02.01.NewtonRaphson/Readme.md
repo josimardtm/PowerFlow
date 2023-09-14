@@ -151,21 +151,23 @@ En la siguiente figura se muestra el diagrama unifilar de la red, con las impeda
 | 2     | Generación   | 100                  | 50                             | --                                 | 1.02                       | 0.0                      |
 | 3     | Carga        | 100                  | -100                           | -60                                | 1.02                       | 0.0                      |  
 
-*Tabla de datos de los enlaces:*
+*Resultados*
 
-| Identificador | Nodo desde | Nodo hacia | Resistencia (p.u.) | Reactancia (p.u.) | Admitancia en paralelo (p.u.) | $I_{max}$ (A) | 
-|---------------|------------|------------|--------------------|-------------------|-------------------------------|---------------|
-| 1             | 1          | 2          | 0,02               | 0,04              | 0                             | 150           |
-| 2             | 1          | 3          | 0,02               | 0,06              | 0                             | 150           |
-| 3             | 2          | 3          | 0,01               | 0,02              | 0                             | 200           |
+Obtenidos en 2 iteraciones del algoritmo propuesto para la aplicación del método de Newton-Raphson a la solución de flujos de potencia.
 
-[<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploNR.ipynb), encontrarás un código sencillo en Python para resolver el ejemplo usando la formulación del método de Newton-Raphson.
+| Nodos | Magnitud de Voltaje (p.u) | Ángulo de Voltaje (rad) | Potencia activa inyectada (MW) | Potencia reactiva inyectada (MVAr) |
+|-------|---------------------------|-------------------------|--------------------------------|------------------------------------|
+| 1     | 1,02                      | 0                       | 50,9767                        | 7,09556                            |
+| 2     | 1,02                      | -0,00822                | 50                             | 55,12521                           |
+| 3     | 1,00434                   | -0,01678                | -100                           | -59,9995                           |
+
+[<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploNR.ipynb), encontrarás el código en Python para resolver el ejemplo usando la formulación del método de Newton-Raphson.
 
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |
 |------------|:-------------------|---------------------------------------------|:-----:|
-| 2023.07.27 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |  10   |
+| 2023.09.14 | Versión preliminar | [josimardtm](https://github.com/josimardtm) |  11   |
 
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
