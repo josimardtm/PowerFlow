@@ -114,6 +114,8 @@ Obtenidos en 15 iteraciones del algoritmo del método desacoplado rápido a la s
 
 [<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploNR.ipynb), encontrarás un código en Python para resolver el ejemplo usando la formulación del método desacoplado rápido.
 
+##
+
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |

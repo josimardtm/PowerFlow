@@ -171,6 +171,8 @@ Obtenidos en 2 iteraciones del algoritmo propuesto para la aplicación del méto
 
 [<img src="..\..\.icons\py.png" width="20"/>](EjemploNR.ipynb) En este [enlace](EjemploNR.ipynb), encontrarás el código en Python para resolver el ejemplo usando la formulación del método de Newton-Raphson.
 
+##
+
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |

@@ -82,6 +82,8 @@ La tabla de datos debe incluir al menos los datos de los nodos y los datos de lo
 | X002          | N001       | N003       | 0,02               | 0,06              | 0                             | 150           |
 | X003          | N002       | N003       | 0,01               | 0,02              | 0                             | 200           |
 
+##
+
 ### Control de versiones
 
 | Versión    | Descripción        | Autor                                       | Horas |

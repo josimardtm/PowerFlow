@@ -21,6 +21,7 @@ El problema del flujo de potencia consiste en calcular la magnitud de voltaje y 
 | [Clasificación de los nodos para el estudio de flujos de potencia](/Section01/01.02.Classification/Readme.md) | Para poder solucionar el problema de flujos de potencia, es necesario clasificar los buses del sistema de potencia. |
 
 ##
+
 _PowerFlow es de uso libre para fines académicos, conoce nuestra licencia, cláusulas, condiciones de uso y como referenciar los contenidos publicados en este repositorio, dando [clic aquí](../../LICENSE.md)._
 
 _¿Encontraste útil este repositorio? Apoya su difusión marcando este repositorio con una ⭐ o síguenos dando clic en el botón Follow de [Josimardtm](https://github.com/josimardtm) en GitHub._
