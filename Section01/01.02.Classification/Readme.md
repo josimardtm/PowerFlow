@@ -1,3 +1,11 @@
+<div align="center">
+    <a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-de-energia/" target="_blank"><img src="../../.icons/banner-cee-top.jpg" alt="Centro de estudios en energía" width="100%" border="0" /></a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/josimardtm/PowerFlow" target="_blank"><img src="../../.icons/banner1.svg" alt="Centro de estudios en energía" width="100%" border="0" /></a>
+</div>
+
 ## Clasificación de los nodos para el estudio de flujos de potencia
 
 Keywords: `Busbars` `Power flow` `Classification` `PV` `PQ` `Slack`
@@ -92,6 +100,10 @@ _¿Encontraste útil este repositorio? Apoya su difusión marcando este reposito
 <div align="center">
     <a href="https://enlace-academico.escuelaing.edu.co/psc/FORMULARIO/EMPLOYEE/SA/c/EC_LOCALIZACION_RE.LC_FRM_ADMEDCO_FL.GBL" target="_blank"><img src="../../.icons/banner-pie-de-pagina.jpg" alt="Certificado" width="100%" border="0" /></a>
 </div>
+
+##
+
+<div align="center"><a href="http://www.escuelaing.edu.co" target="_blank"><img src="../../.icons/banner-bottom.svg" alt="Support by" width="100%" border="0" /></a><sub><br>Este curso guía ha sido desarrollado con el apoyo de la Escuela Colombiana de Ingeniería - Julio Garavito. Encuentra más contenidos en https://github.com/uescuelaing</sub><br><br></div>
 
 [comment]:<> (Referencias [^1]: Tomado y/o adaptado de https://www.scielo.org.mx/scielo.php?pid=S2007-78902020000800028&script=sci_arttext#:~:text=El%20desarrollo%20colaborativo%20se%20refiere,inform%C3%A1tico%20funcional%20y%20de%20calidad.)
 [comment]:<> (Enlace a video, imagen de cabecera, alcance, objetivos, requerimientos, diagrama general de procesos, conceptos)
